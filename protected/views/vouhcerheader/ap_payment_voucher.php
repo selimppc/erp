@@ -398,8 +398,9 @@ function balanceAmount(){
 						<tr>
 							<th width="270">Invoice No</th>
 							<th width="270">Amount Payable</th>
-							<th width="200"> Currency </th>
+							<th width="200">Currency </th>
 							<th width="200">Exchange Rate</th>
+                            <th width="200">Date</th>
 
 						</tr>
 					</thead>
@@ -411,7 +412,7 @@ function balanceAmount(){
 								<td style="text-align: right;"><?php  echo $values['amount']; ?></td>
 								<td><?php  echo $values['currency']; ?></td>
 								<td><?php  echo $values['exchange']; ?></td>
-
+                                <td><?php  echo $values['date']; ?></td>
 								
 							</tr>
 						<?php  } endforeach; ?>

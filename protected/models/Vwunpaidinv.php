@@ -30,7 +30,7 @@ class Vwunpaidinv extends CActiveRecord
 			array('amount', 'length', 'max'=>42),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('suppliercode, invoicnumber, amount', 'safe', 'on'=>'search'),
+			array('suppliercode, invoicnumber, date, branch, currency, exchange, primaamt, amount', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,6 +53,11 @@ class Vwunpaidinv extends CActiveRecord
 		return array(
 			'suppliercode' => 'Suppliercode',
 			'invoicnumber' => 'Invoicnumber',
+            'date' => 'Date',
+            'branch' => 'Branch',
+            'currency' => 'Currency',
+            'exchange' => 'Exchange Rate',
+            'primaamt' => 'Prime Amount',
 			'amount' => 'Amount',
 		);
 	}
@@ -77,6 +82,13 @@ class Vwunpaidinv extends CActiveRecord
 
 		$criteria->compare('suppliercode',$this->suppliercode,true);
 		$criteria->compare('invoicnumber',$this->invoicnumber,true);
+
+        $criteria->compare('date',$this->date,true);
+        $criteria->compare('branch',$this->branch,true);
+        $criteria->compare('currency',$this->currency,true);
+        $criteria->compare('exchange',$this->exchange,true);
+        $criteria->compare('primaamt',$this->primaamt,true);
+
 		$criteria->compare('amount',$this->amount,true);
 
 		return new CActiveDataProvider($this, array(
