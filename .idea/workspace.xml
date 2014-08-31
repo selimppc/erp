@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_direct_sale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/smheader/admin_direct_sale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/journaldt/admin_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/journaldt/admin_view_payment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/journaldt/admin_view_receipt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/journaldt/admin_view_reverse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/smheader/direct_sale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/imtransaction/post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/sareport/stock_balance_after_ad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Adjustdt.php" afterPath="$PROJECT_DIR$/protected/models/Adjustdt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/BranchmasterController.php" afterPath="$PROJECT_DIR$/protected/controllers/BranchmasterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Customermst.php" afterPath="$PROJECT_DIR$/protected/models/Customermst.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" afterPath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Productmaster.php" afterPath="$PROJECT_DIR$/protected/models/Productmaster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" afterPath="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Purchaseorddt.php" afterPath="$PROJECT_DIR$/protected/models/Purchaseorddt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Requisitiondt.php" afterPath="$PROJECT_DIR$/protected/models/Requisitiondt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SuppliermasterController.php" afterPath="$PROJECT_DIR$/protected/controllers/SuppliermasterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/customermst/_form.php" afterPath="$PROJECT_DIR$/protected/views/customermst/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/productmaster/_form.php" afterPath="$PROJECT_DIR$/protected/views/productmaster/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +27,7 @@
     <file path="/Itimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405224650481" ignored="false" />
     <file path="/RequisitionhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404882624171" ignored="false" />
     <file path="/admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408436103632" ignored="false" />
-    <file path="/_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408526108528" ignored="false" />
+    <file path="/_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409469240118" ignored="false" />
     <file path="/PurchaseordhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405923170685" ignored="false" />
     <file path="/PurchaseorddtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405491250604" ignored="false" />
     <file path="/Purchaseordhd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404863958636" ignored="false" />
@@ -53,7 +57,7 @@
     <file path="/ImtransactionController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828029729" ignored="false" />
     <file path="/ItimtoapController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404574747273" ignored="false" />
     <file path="/ItimtoglController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405224483821" ignored="false" />
-    <file path="/ProductmasterController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405760000311" ignored="false" />
+    <file path="/ProductmasterController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409463457196" ignored="false" />
     <file path="/RequisitiondtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405491348324" ignored="false" />
     <file path="/create_money_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407846469075" ignored="false" />
     <file path="/create_sales_return.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404534197644" ignored="false" />
@@ -72,7 +76,7 @@
     <file path="/manage_voucher_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404759835928" ignored="false" />
     <file path="/glreports.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404769524971" ignored="false" />
     <file path="/SareportController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409120703597" ignored="false" />
-    <file path="/Purchaseorddt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404929841308" ignored="false" />
+    <file path="/Purchaseorddt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409475280008" ignored="false" />
     <file path="/PurchaseOrderNumberS.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404875401204" ignored="false" />
     <file path="/Requisitionhd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404880189149" ignored="false" />
     <file path="/Requisitiondt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404884477226" ignored="false" />
@@ -147,19 +151,20 @@
     <file path="/grn_detail_admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406085633701" ignored="false" />
     <file path="/delivery_order.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408956935204" ignored="false" />
     <file path="/vat.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567521434" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409212272018" ignored="false" />
+    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409463164524" ignored="false" />
     <file path="/Vwpostimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407753597033" ignored="false" />
     <file path="/post.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828621082" ignored="false" />
     <file path="/_form_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408515391965" ignored="false" />
     <file path="/admin_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408344266515" ignored="false" />
     <file path="/AdjusthdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408526960815" ignored="false" />
-    <file path="/Adjustdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408440050284" ignored="false" />
+    <file path="/Adjustdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409477229927" ignored="false" />
     <file path="/AdjustdtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409123271301" ignored="false" />
     <file path="/stock_balance.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409033738023" ignored="false" />
     <file path="/create_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409052991418" ignored="false" />
     <file path="/home.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409053468302" ignored="false" />
     <file path="/Vwvoucher.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409130671741" ignored="false" />
     <file path="/admin_view.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409132285834" ignored="false" />
+    <file path="/Productmaster.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409465760029" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +183,17 @@
     <favorites_list name="erp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Productmaster.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/models/Productmaster.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="5" selection-start="6827" selection-end="6827" vertical-scroll-proportion="0.6226415">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -196,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/journaldt/admin_view_payment.php" />
-        <option value="$PROJECT_DIR$/protected/views/journaldt/admin_view_receipt.php" />
-        <option value="$PROJECT_DIR$/protected/views/journaldt/admin_view_reverse.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/create.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/create_payment.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/create_receipt.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/create_reverse.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/JournaldtController.php" />
-        <option value="$PROJECT_DIR$/protected/views/journaldt/create_payment.php" />
-        <option value="$PROJECT_DIR$/protected/views/journaldt/create_receipt.php" />
-        <option value="$PROJECT_DIR$/protected/views/journaldt/create_reverse.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/journal/admin_payment.php" />
         <option value="$PROJECT_DIR$/protected/views/journal/admin_receipt.php" />
         <option value="$PROJECT_DIR$/protected/views/journal/admin_reverse.php" />
         <option value="$PROJECT_DIR$/protected/models/Chartofaccounts.php" />
+        <option value="$PROJECT_DIR$/protected/views/productmaster/_form.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SuppliermasterController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/BranchmasterController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
+        <option value="$PROJECT_DIR$/protected/models/Customermst.php" />
+        <option value="$PROJECT_DIR$/protected/views/customermst/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/Purchaseorddt.php" />
+        <option value="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/Requisitiondt.php" />
+        <option value="$PROJECT_DIR$/protected/models/Adjustdt.php" />
+        <option value="$PROJECT_DIR$/protected/models/Productmaster.php" />
       </list>
     </option>
   </component>
@@ -266,6 +281,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smheader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -273,11 +388,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dms" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -347,14 +462,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3068182" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20757575" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -445,84 +560,138 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/admin_view_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="136" selection-end="136" vertical-scroll-proportion="0.23121387" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/create_reverse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="18" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.49196786" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/create_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.4176707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/create_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="65" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.24470136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="3148" selection-end="3148" vertical-scroll-proportion="0.33526012" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="66" selection-start="4450" selection-end="4450" vertical-scroll-proportion="-7.586207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_reverse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="48" selection-start="4427" selection-end="4427" vertical-scroll-proportion="-7.586207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="66" selection-start="4458" selection-end="4458" vertical-scroll-proportion="0.3468208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="153" selection-start="4796" selection-end="4806" vertical-scroll-proportion="0.3371869" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/JournaldtController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="0" selection-start="22475" selection-end="22475" vertical-scroll-proportion="-0.2145749" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/admin_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="10" selection-start="1838" selection-end="2800" vertical-scroll-proportion="0.65317917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/admin_reverse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="17" selection-start="4019" selection-end="4019" vertical-scroll-proportion="0.6146436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/admin_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="10" selection-start="4387" selection-end="4387" vertical-scroll-proportion="0.9229287" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/admin_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="10" selection-start="4382" selection-end="4382" vertical-scroll-proportion="0.9229287" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="10" selection-start="3279" selection-end="4241" vertical-scroll-proportion="0.8073218" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Chartofaccounts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="49" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.38535646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/productmaster/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="21" selection-start="5702" selection-end="5702" vertical-scroll-proportion="0.3207547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ProductmasterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="13" selection-start="8637" selection-end="8637" vertical-scroll-proportion="0.5849057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SuppliermasterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="117" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.41509435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/BranchmasterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.3018868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/branchmaster/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.245283">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/customermst/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.3018868">
+          <folding>
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409469348226" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Customermst.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="36" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.2264151">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CustomermstController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.5188679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/adjusthd/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="144" selection-start="850" selection-end="906" vertical-scroll-proportion="0.33962265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.41509435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Purchaseorddt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="43" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.43396226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="123" selection-start="15511" selection-end="15524" vertical-scroll-proportion="0.5660377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Requisitiondt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.6415094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Adjustdt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="32" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.7169811">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Productmaster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="5" selection-start="6827" selection-end="6827" vertical-scroll-proportion="0.6226415">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

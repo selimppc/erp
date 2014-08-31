@@ -89,12 +89,15 @@ class SuppliermasterController extends Controller
 		if(isset($_POST['Suppliermaster']))
 		{
 			$model->attributes=$_POST['Suppliermaster'];
-			if($model->save()){
+
+            try{
+                $model->save();
                 Yii::app()->user->setFlash('success', Yii::t('supplier', 'Success Message : Data Added Successfully !'));
-            }else{
-                Yii::app()->user->setFlash('error', Yii::t('supplier', 'Warning Message: Invalid request !'));
+            }catch(CDbException $e){
+                Yii::app()->user->setFlash('error', Yii::t('supplier', 'Warning Message: Invalid request! Supplier ID already exist!'));
             }
-				$this->redirect(array('view','cm_supplierid'=>$model->cm_supplierid));
+
+			$this->redirect(array('create'));
 		}
 
 		$this->render('create',array(

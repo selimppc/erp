@@ -76,15 +76,16 @@ class BranchmasterController extends Controller
 		if(isset($_POST['Branchmaster']))
 		{
 			$model->attributes=$_POST['Branchmaster'];
-			if($model->save()){
-                Yii::app()->user->setFlash('success', Yii::t('branchmaster', 'Success Message : Data Created Successfully !'));
-            }else{
-                Yii::app()->user->setFlash('error', Yii::t('branchmaster', 'Warning Message: Error !'));
-            }
-				//$this->redirect(array('view','id'=>$model->cm_branch));
-				$this->redirect(array('admin'));
-		}
 
+            try{
+                $model->save();
+                Yii::app()->user->setFlash('success', Yii::t('branchmaster', 'Success Message : Data Added Successfully !'));
+                $this->redirect(array('admin'));
+            }catch(CDbException $e){
+                Yii::app()->user->setFlash('error', Yii::t('branchmaster', 'Warning Message: Invalid request ! Branch already exist!'));
+                $this->redirect(array('create'));
+            }
+		}
 		$this->render('create',array(
 			'model'=>$model,
 		));

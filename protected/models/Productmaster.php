@@ -54,16 +54,26 @@ class Productmaster extends CActiveRecord
 			array('cm_maxlevel, cm_minlevel, cm_reorder', 'numerical', 'integerOnly'=>true),
 			array('cm_code, cm_class, cm_group, cm_category, cm_sellunit, cm_purunit, cm_stkunit, cm_packsize, cm_stocktype, cm_supplierid, cm_mfgcode, insertuser, updateuser', 'length', 'max'=>50),
 			array('cm_name, cm_description', 'length', 'max'=>200),
+
 			array('cm_sellrate, currency, cm_costprice, cm_sellconfact, cm_purconfact, cm_stkconfac', 'length', 'max'=>20),
 			array('cm_generic', 'length', 'max'=>100),
 			array('inserttime, updatetime, currency', 'safe'),
-			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
+
 			array('cm_code, cm_name, cm_description, image, cm_class, cm_group, cm_category, currency, exchange_rate, cm_sellrate, cm_costprice, cm_sellunit, cm_sellconfact, cm_purunit, cm_purconfact, cm_stkunit, cm_stkconfac, cm_packsize, cm_stocktype, cm_generic, cm_supplierid, cm_mfgcode, cm_maxlevel, cm_minlevel, cm_reorder, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
 		);
 	}
 
-	/**
+    /*
+    // Value should not be blank or zero
+    public function greaterThanZero($pp_quantity)
+    {
+        if ($this->$pp_quantity<=0)
+            $this->addError($pp_quantity, 'Quantity should not be blank or zero');
+    }
+    */
+
+
+    /**
 	 * @return array relational rules.
 	 */
 	public function relations()

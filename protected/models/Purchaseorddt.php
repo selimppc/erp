@@ -50,6 +50,7 @@ class Purchaseorddt extends CActiveRecord
 			array('pp_quantity, pp_grnqty, pp_unitqty', 'numerical', 'integerOnly'=>true),
 			array('pp_purordnum, cm_code, pp_unit, insertuser, updateuser', 'length', 'max'=>50),
 			array('pp_purchasrate', 'length', 'max'=>20),
+            array('pp_quantity', 'greaterThanZero'),
 			array('inserttime, updatetime', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -70,6 +71,14 @@ class Purchaseorddt extends CActiveRecord
 	        }
 	    }
 	 }
+
+    public function greaterThanZero($pp_quantity)
+    {
+
+        if ($this->$pp_quantity<=0)
+            $this->addError($pp_quantity, 'Quantity should not be blank or zero');
+
+    }
 	 
 	/**
 	 * @return array relational rules.

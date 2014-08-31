@@ -74,12 +74,14 @@ class ProductmasterController extends Controller
 		if(isset($_POST['Productmaster']))
 		{
 			$model->attributes=$_POST['Productmaster'];
-			if($model->save()){
+			try{
+                $model->save();
                 Yii::app()->user->setFlash('success', Yii::t('Product', 'Success Message : Data Added Successfully !'));
-            }else{
-                Yii::app()->user->setFlash('error', Yii::t('Product', 'Warning Message: Invalid request !'));
+            }catch(CDbException $e){
+                Yii::app()->user->setFlash('error', Yii::t('Product', 'Warning Message: Invalid request ! Product code already exist!'));
             }
-				$this->redirect(array('create'));
+
+			$this->redirect(array('create'));
 		}
 
 		$this->render('create',array(
@@ -291,11 +293,14 @@ class ProductmasterController extends Controller
         if(isset($_POST['Productmaster']))
         {
             $model->attributes=$_POST['Productmaster'];
-            if($model->save()){
+
+            try{
+                $model->save();
                 Yii::app()->user->setFlash('success', Yii::t('service', 'Success Message : Data Added Successfully !'));
-            }else{
-                Yii::app()->user->setFlash('error', Yii::t('service', 'Warning Message: Invalid request !'));
+            }catch(CDbException $e){
+                Yii::app()->user->setFlash('error', Yii::t('service', 'Warning Message: Invalid request ! Service Code already exist ! '));
             }
+
             $this->redirect(array('service'));
         }
 

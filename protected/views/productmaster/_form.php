@@ -49,19 +49,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_class'); ?>
-		<?php  echo $form->dropDownList($model,'cm_class', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Class"'), 'cm_code', 'cm_code'), array('empty'=>'- Choose Product Class -', 'required'=>TRUE,) ); ?>
+		<?php  echo $form->dropDownList($model,'cm_class', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Class"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Product Class -', 'required'=>TRUE,) ); ?>
 		<?php echo $form->error($model,'cm_class'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_group'); ?>
-		<?php echo $form->dropDownList($model,'cm_group', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Group"'), 'cm_code', 'cm_code'), array('empty'=>'- Choose Product Group -', 'required'=>TRUE,)); ?>
+		<?php echo $form->dropDownList($model,'cm_group', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Group"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Product Group -', 'required'=>TRUE,)); ?>
 		<?php echo $form->error($model,'cm_group'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_category'); ?>
-		<?php echo $form->dropDownList($model,'cm_category', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Category"'), 'cm_code', 'cm_code'), array('empty'=>'- Choose Product Category -', 'required'=>TRUE,)); ?>
+		<?php echo $form->dropDownList($model,'cm_category', CHtml::listData(Codesparam::model()->findAll('cm_type="Product Category"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Product Category -', 'required'=>TRUE,)); ?>
 		<?php echo $form->error($model,'cm_category'); ?>
 	</div>
 
@@ -69,7 +69,7 @@
                 <?php echo $form->labelEx($model,'currency'); ?>
                 <?php //echo $form->dropDownList($model,'pp_currency', CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description'), array('empty'=>'- Select Currency -', 'required'=>true, )); ?>
                 <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
-                echo $form->dropDownList($model,'currency', $currency, array('empty'=>'- Choose Currency -', 'required'=>TRUE,
+                echo $form->dropDownList($model,'currency', $currency, array('empty'=>'- Select Currency -', 'required'=>TRUE,
 
                     'ajax' => array(
                         'type'=>'POST',
@@ -94,19 +94,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_sellrate'); ?>
-		<?php echo $form->textField($model,'cm_sellrate' ); ?>
+		<?php echo $form->textField($model,'cm_sellrate', array('required'=>TRUE ) ); ?>
 		<?php echo $form->error($model,'cm_sellrate'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_costprice'); ?>
-		<?php echo $form->textField($model,'cm_costprice',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->textField($model,'cm_costprice',array('required'=>TRUE )); ?>
 		<?php echo $form->error($model,'cm_costprice'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_sellunit'); ?>
-		<?php echo $form->dropDownList($model,'cm_sellunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code')); ?>
+		<?php echo $form->dropDownList($model,'cm_sellunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Sell Unit -', 'required'=>TRUE,)); ?>
 		<?php echo $form->error($model,'cm_sellunit'); ?>
 	</div>
 
@@ -117,32 +117,32 @@
 
     <div class="row">
         <?php echo $form->labelEx($model,'cm_sellconfact'); ?>
-        <?php echo $form->textField($model,'cm_sellconfact',array('size'=>20,'maxlength'=>20)); ?>
+        <?php echo $form->textField($model,'cm_sellconfact',array('required'=>TRUE, 'placeholder'=>'Quantity should not be blank or zero')); ?>
         <?php echo $form->error($model,'cm_sellconfact'); ?>
     </div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_purunit'); ?>
-		<?php echo $form->dropDownList($model,'cm_purunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code')); ?>
+		<?php echo $form->dropDownList($model,'cm_purunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Purchase Unit -', 'required'=>TRUE,)); ?>
 		<?php echo $form->error($model,'cm_purunit'); ?>
 	</div>
         
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_purconfact'); ?>
-		<?php echo $form->textField($model,'cm_purconfact',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->textField($model,'cm_purconfact',array('required'=>TRUE, 'placeholder'=>'Quantity should not be blank or zero')); ?>
 		<?php echo $form->error($model,'cm_purconfact'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_stkunit'); ?>
-		<?php echo $form->dropDownList($model,'cm_stkunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code')); ?>
+		<?php echo $form->dropDownList($model,'cm_stkunit', CHtml::listData(Codesparam::model()->findAll('cm_type="Unit Of Measurement"'), 'cm_code', 'cm_code'), array('empty'=>'- Select Stock Unit -', 'required'=>TRUE,)); ?>
 		<?php echo $form->error($model,'cm_stkunit'); ?>
 	</div>
             
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_stkconfac'); ?>
-		<?php echo $form->textField($model,'cm_stkconfac',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->textField($model,'cm_stkconfac',array('required'=>TRUE, 'placeholder'=>'Quantity should not be blank or zero')); ?>
 		<?php echo $form->error($model,'cm_stkconfac'); ?>
 	</div>
 
@@ -233,3 +233,5 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+
+

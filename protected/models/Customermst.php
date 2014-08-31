@@ -40,7 +40,7 @@ class Customermst extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cm_cuscode, cm_branch', 'required'),
+			array('cm_name,cm_email, cm_branch', 'required'),
 			array('cm_cuscode, cm_creditlimit', 'length', 'max'=>20),
 			array('cm_name, cm_group, c_status, c_type', 'length', 'max'=>100),
 			array('cm_address', 'length', 'max'=>250),

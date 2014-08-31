@@ -53,13 +53,23 @@ class Requisitiondt extends CActiveRecord
 			array('pp_quantity', 'numerical', 'integerOnly'=>true),
 			array('pp_requisitionno, cm_code, pp_unit, insertuser, updateuser', 'length', 'max'=>50),
 			array('inserttime, updatetime', 'safe'),
+            array('pp_quantity', 'greaterThanZero' ),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, pp_requisitionno, cm_code, product_search, pp_unit, pp_quantity, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
 		);
 	}
 
-	/**
+    public function greaterThanZero($pp_quantity)
+    {
+
+        if ($this->$pp_quantity<=0)
+            $this->addError($pp_quantity, 'Quantity should not be blank or zero');
+
+    }
+
+
+    /**
 	 * @return array relational rules.
 	 */
 	public function relations()

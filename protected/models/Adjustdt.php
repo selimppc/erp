@@ -44,13 +44,21 @@ class Adjustdt extends CActiveRecord
 			array('transaction_number, product_code, batch_number, insertuser, updateuser', 'length', 'max'=>50),
 			array('stock_rate', 'length', 'max'=>20),
 			array('expirry_date,unit, updatetime', 'safe'),
+            array('quantity', 'greaterThanZero'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, transaction_number, product_code,  product_search, batch_number, expirry_date, unit, quantity, stock_rate, inserttime, insertuser, updatetime, updateuser', 'safe', 'on'=>'search'),
 		);
 	}
 
-	/**
+    public function greaterThanZero($quantity)
+    {
+        if ($this->$quantity<=0)
+            $this->addError($quantity, 'Quantity should not be blank or zero');
+    }
+
+
+    /**
 	 * @return array relational rules.
 	 */
 	public function relations()

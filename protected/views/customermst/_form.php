@@ -117,7 +117,7 @@
 	'id'=>'customermst-form',
 	'enableAjaxValidation'=>false,
 	'enableClientValidation'=>true,
-	'focus'=>array($model,'cm_cuscode'),
+	'focus'=>array($model,'cm_name'),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -130,11 +130,11 @@
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_cuscode'); ?>
-		<?php echo $form->textField($model,'cm_cuscode', array($model->isNewRecord ? '' : "readonly"=>True)); ?>
+		<?php echo $form->textField($model,'cm_cuscode', array("readonly"=>True, 'style'=>$model->isNewRecord ? 'background: #efefef':'',)); ?>
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_name'); ?>
-		<?php echo $form->textField($model,'cm_name'); ?>
+		<?php echo $form->textField($model,'cm_name', array("required"=>TRUE )); ?>
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_phone'); ?>
@@ -157,7 +157,7 @@
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_email'); ?>
-		<?php echo $form->textField($model,'cm_email'); ?>
+		<?php echo $form->textField($model,'cm_email', array("required"=>TRUE )); ?>
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_branch'); ?>
@@ -193,7 +193,8 @@
 <div id="box_input_id">
 	<div id="part_40" class="compactRadioGroup">
 		<?php echo $form->labelEx($model,'c_status'); ?>
-		<?php echo $form->radioButtonList($model,'c_status', array('Open'=>'Open','Close'=>'Close'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: 36px 25px 0px 0px; padding: 0px 0px 0px 3px;'))); ?>
+		<?php echo $form->radioButtonList($model,'c_status', array('Open'=>'Open','Close'=>'Close'),
+array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: 36px 25px 0px 0px; padding: 0px 0px 0px 3px;'))); ?>
 	</div>
 </div>	
 

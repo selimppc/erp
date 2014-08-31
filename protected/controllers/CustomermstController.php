@@ -73,14 +73,14 @@ class CustomermstController extends Controller
 	{
 		$model=new Customermst;
 
-		$model->cm_cuscode = $this->actionCusCode();
-		
 				$model->inserttime = date("Y-m-d H:i");
                 $model->insertuser = Yii::app()->user->name;
 
 		if(isset($_POST['Customermst']))
 		{
 			$model->attributes=$_POST['Customermst'];
+            $model->cm_cuscode = $this->actionCusCode();
+
 			if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('customer', 'Success Message : Data Created Successfully !'));
             }else{
