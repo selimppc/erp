@@ -23,6 +23,7 @@ class Transferdt extends CActiveRecord
 {
 	public $im_status;
 	public $cm_name;
+    public $branch;
 
     public $product_search;
 	/**

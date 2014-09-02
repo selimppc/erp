@@ -77,7 +77,7 @@ class TransferdtController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($im_transfernum)
+	public function actionCreate($im_transfernum, $branch )
 	{
 		$model=new Transferdt;
 
@@ -109,13 +109,13 @@ class TransferdtController extends Controller
                         Yii::app()->user->setFlash('error', Yii::t('transferdt', 'Warning Message: Invalid request !'));
                     }
                 }
-                $this->redirect(array('create','im_transfernum'=>$model->im_transfernum));
+                $this->redirect(array('create','im_transfernum'=>$model->im_transfernum, 'branch'=>$branch));
             }
 		}
 
 		$this->render('create',array(
 			'model'=>$model, 'im_transfernum'=>$im_transfernum,
-            'transferdt'=>$transferdt,
+            'transferdt'=>$transferdt,'branch'=>$branch,
 		));
 	}
 
@@ -140,6 +140,8 @@ class TransferdtController extends Controller
 
         $transferdt = $this->actionTransferDtAdmin($im_transfernum);
 
+        $branch = Transferhd::model()->findByAttributes(array('im_transfernum'=>$im_transfernum))->im_fromstore;
+
 		if(isset($_POST['Transferdt']))
 		{
 			$model->attributes=$_POST['Transferdt'];
@@ -148,12 +150,12 @@ class TransferdtController extends Controller
             }else{
                 Yii::app()->user->setFlash('error', Yii::t('transferdt', 'Warning Message: Invalid request !'));
             }
-				$this->redirect(array('create','im_transfernum'=>$im_transfernum));
+				$this->redirect(array('create','im_transfernum'=>$im_transfernum, 'branch'=>$branch));
 		}
 
 		$this->render('create',array(
 			'model'=>$model, 'im_transfernum'=>$im_transfernum,
-            'transferdt'=>$transferdt,
+            'transferdt'=>$transferdt,'branch'=>$branch,
 		));
 	}
 
@@ -294,15 +296,17 @@ class TransferdtController extends Controller
 		
 		function actionGetCmNames() 
 		{
-			
+          $branch = $_GET['branch'];
+
 		  if (!empty($_GET['term'])) {
-			//$sql = 'SELECT cm_code as id, CONCAT(cm_code," ",cm_name) as value, cm_name as label FROM cm_productmaster WHERE cm_name LIKE :qterm ';
-			//$sql = 'SELECT cm_code as value, cm_name as label, cm_stkunit as unit FROM cm_productmaster WHERE cm_name LIKE :qterm ';
-			//$sql .= ' ORDER BY cm_name ASC';
-			$sql = "SELECT t.cm_code as value, t.cm_name as label, t.cm_stkunit as unit, r.cm_code, r.available as available
+
+			$sql = "SELECT t.cm_code as value, t.cm_name as label, t.cm_stkunit as unit, r.cm_code, SUM(r.available) as available
 		            FROM cm_productmaster t 
 		            INNER JOIN im_vw_stock r ON t.cm_code = r.cm_code
-		            WHERE t.cm_name LIKE :qterm";
+		            WHERE t.cm_name LIKE :qterm AND r.im_storeid='$branch'
+		            GROUP BY r.cm_code ";
+
+            $sql .= ' ORDER BY label ASC';
 			$command = Yii::app()->db->createCommand($sql);
 			$qterm = $_GET['term'].'%';
 			$command->bindParam(":qterm", $qterm, PDO::PARAM_STR);
@@ -310,6 +314,7 @@ class TransferdtController extends Controller
 			
 			echo CJSON::encode($result); exit;
 		  } else {
+
 			return false;
 		  }
 		  

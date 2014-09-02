@@ -41,13 +41,28 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_code'); ?>
 		<?php // echo $form->textField($model,'cm_code',array('size'=>50,'maxlength'=>50)); ?>
-		
+
+        <input type="hidden" value="<?php echo $branch;?>" id="branch_name" />
+
 		<?php 
 			$this->widget('zii.widgets.jui.CJuiAutoComplete', array(
 				'name'=>'cm_code',
 				'model'=>$model,
 				'attribute'=>'cm_code',
-				'source'=>CController::createUrl('/Transferdt/GetCmNames'),
+				//'source'=>CController::createUrl('/Transferdt/GetCmNames'),
+                'source'=>'js: function(request, response) {
+                        $.ajax({
+                            url: "'.$this->createUrl('/Transferdt/GetCmNames').'",
+                            dataType: "json",
+                            data: {
+                                term: request.term,
+                                branch: $("#branch_name").val(),
+                            },
+                            success: function (data) {
+                                    response(data);
+                            }
+                        })
+                     }',
 				'options'=>array(
 					'minLength'=>'1', 
 					'select'=>'js:function(event, ui){
@@ -64,10 +79,10 @@
                     'readonly'=>$model->isNewRecord ? '' : True,
 				),
 			));
-		?> <br><div id="productname"></div>
+		?> <br><br><div style="padding-left: 147px;" id="productname"></div>
 
 		<?php echo $form->error($model,'cm_code'); ?>
-        <br>Available Quantity: <span id="available_quantity" style="font-weight: bold; color: orangered;"></span>
+        Available Quantity: <span id="available_quantity" style="font-weight: bold; color: orangered;"></span>
 	</div>
 
 	<div class="row">

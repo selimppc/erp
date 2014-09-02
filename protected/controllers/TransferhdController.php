@@ -105,7 +105,9 @@ class TransferhdController extends Controller
             {
                 if($model->save()){
                     Yii::app()->user->setFlash('success', Yii::t('transfer', 'Success Message : Data Added Successfully !'));
-                    $this->redirect(array('transferdt/create','im_transfernum'=>$model->im_transfernum));
+                    $this->redirect(array('transferdt/create','im_transfernum'=>$model->im_transfernum,
+                        'branch'=>$model->im_fromstore,
+                    ));
                 }else{
                     Yii::app()->user->setFlash('error', Yii::t('transfer', 'Warning Message: Invalid request !'));
                     $this->redirect(array('create'));

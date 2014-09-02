@@ -9,8 +9,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'<< Back to Transfer Header', 'url'=>array('transferhd/create')),
-	array('label'=>'New Transfer Detail', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/create_a.png" /></span>{menu}', 'url'=>array('create' ,'im_transfernum'=>$im_transfernum)),
+	array('label'=>'<< Back to Transfer Header', 'url'=>array('transferhd/admin')),
+	//array('label'=>'New Transfer Detail', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/create_a.png" /></span>{menu}', 'url'=>array('create' ,'im_transfernum'=>$im_transfernum)),
 );
 ?>
 
@@ -56,7 +56,7 @@ $this->menu=array(
 
 <div style="width: 98%; float: left;">
     <div style="width: 47%; float: left; margin-right: 3%;">
-        <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+        <?php $this->renderPartial('_form', array('model'=>$model, 'branch'=>$branch,)); ?>
     </div>
     <div style="width: 50%; float: left;">
 
@@ -85,7 +85,7 @@ $this->menu=array(
                         (
                             'url'=>
                             'Yii::app()->createUrl("transferdt/update/",
-                                                    array("id"=>$data->id, "im_transfernum"=>$data->im_transfernum
+                                                    array("id"=>$data->id, "im_transfernum"=>$data->im_transfernum,
                                                     ))',
                         ),
 

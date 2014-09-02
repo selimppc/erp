@@ -74,7 +74,7 @@ $this->menu=array(
                     'class'=>'CLinkColumn',
                     'header'=>'Transfer Number',
                     'labelExpression'=>'$data->im_transfernum',
-                    'urlExpression'=>'$data->im_status=="Open" ? array("transferdt/create","im_transfernum"=>$data->im_transfernum, "im_status"=>$data->im_status) :
+                    'urlExpression'=>'$data->im_status=="Open" ? array("transferdt/create","im_transfernum"=>$data->im_transfernum, "im_status"=>$data->im_status, "branch"=>$data->im_fromstore) :
                             array("transferdt/admin","im_transfernum"=>$data->im_transfernum)',
                 ),
                 //'im_date',
