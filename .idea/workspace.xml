@@ -177,7 +177,7 @@
       <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.45112783">
+            <state line="25" column="52" selection-start="660" selection-end="660" vertical-scroll-proportion="0.36090225">
               <folding />
             </state>
           </provider>
@@ -649,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.45112783">
+        <state line="25" column="52" selection-start="660" selection-end="660" vertical-scroll-proportion="0.36090225">
           <folding />
         </state>
       </provider>

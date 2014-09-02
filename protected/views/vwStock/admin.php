@@ -23,7 +23,7 @@ $this->breadcrumbs=array(
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'transferdt-grid',
-    'rowCssClassExpression'=>'($data->available <= 10) ? "red-alert": "especial" ',
+    'rowCssClassExpression'=>'($data->available <= 20) ? "red-alert": "especial" ',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
