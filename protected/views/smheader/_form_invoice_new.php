@@ -109,7 +109,7 @@ table .money-receipt-sales, td, th
 		var available = document.getElementById("available").value;
 
 		if(parseInt(quantity_a) > parseInt(available)){
-				alert("Product Quantity is not Available !!!");
+				alert("Product Quantity is not Available! Available Quantity is: " + available );
 				document.getElementById("quantity_a").value = " ";
 				exit;
 			}else{
