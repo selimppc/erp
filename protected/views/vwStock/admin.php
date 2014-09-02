@@ -7,7 +7,14 @@ $this->breadcrumbs=array(
 );
 ?>
 
-
+<style type="text/css">
+    .red-alert{
+        background-color: #FFB9B9;
+    }
+    .especial{
+        background-color: #eeedeb;
+    }
+</style>
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
@@ -16,6 +23,7 @@ $this->breadcrumbs=array(
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'transferdt-grid',
+    'rowCssClassExpression'=>'($data->available <= 10) ? "red-alert": "especial" ',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

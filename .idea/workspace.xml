@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/vwStock/admin.php" afterPath="$PROJECT_DIR$/protected/views/vwStock/admin.php" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +14,7 @@
     <file path="/ItImtoap.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1403638077072" ignored="false" />
     <file path="/Itimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405224650481" ignored="false" />
     <file path="/RequisitionhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404882624171" ignored="false" />
-    <file path="/admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408436103632" ignored="false" />
+    <file path="/admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409644862516" ignored="false" />
     <file path="/_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409641852680" ignored="false" />
     <file path="/PurchaseordhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405923170685" ignored="false" />
     <file path="/PurchaseorddtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405491250604" ignored="false" />
@@ -174,7 +173,17 @@
     <favorites_list name="erp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.45112783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -192,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/models/Purchaseorddt.php" />
         <option value="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" />
         <option value="$PROJECT_DIR$/protected/models/Requisitiondt.php" />
         <option value="$PROJECT_DIR$/protected/models/Adjustdt.php" />
@@ -208,6 +216,7 @@
         <option value="$PROJECT_DIR$/protected/models/Transferhd.php" />
         <option value="$PROJECT_DIR$/protected/models/Transferdt.php" />
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
+        <option value="$PROJECT_DIR$/protected/views/vwStock/admin.php" />
       </list>
     </option>
   </component>
@@ -303,6 +312,50 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vwStock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smheader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -385,14 +438,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106818184" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -483,11 +536,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/models/Productmaster.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="5" selection-start="6827" selection-end="6827" vertical-scroll-proportion="0.6226415" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/VouhcerheaderController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="589" column="28" selection-start="17659" selection-end="17659" vertical-scroll-proportion="0.4059406" />
@@ -596,6 +644,13 @@
           <folding>
             <element signature="n#style#0;n#input#2;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="205" selection-end="205" vertical-scroll-proportion="0.45112783">
+          <folding />
         </state>
       </provider>
     </entry>
