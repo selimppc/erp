@@ -78,14 +78,16 @@ $this->menu=array(
 <?php
 
     $this->widget('zii.widgets.grid.CGridView', array(
-        'id' => 'grid-view-id',
+    'id' => 'grid-view-id',
 	'dataProvider'=>$model->searchInvoice(),
 	'filter'=>$model,
 	'columns'=>array(
 
 		//'id',
 		'im_grnnumber',
-		'cm_supplierid',
+		//'cm_supplierid',
+        array( 'name'=>'supplier_search', 'value'=>'$data->supplier->cm_orgname' ),
+
 		'im_date',
         //'am_vouchernumber',
         array(

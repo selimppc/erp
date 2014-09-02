@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/vwStock/admin.php" afterPath="$PROJECT_DIR$/protected/views/vwStock/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Grnheader.php" afterPath="$PROJECT_DIR$/protected/models/Grnheader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php" afterPath="$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,6 +158,7 @@
     <file path="/Productmaster.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409465760029" ignored="false" />
     <file path="/Vwunpaidinv.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409483202104" ignored="false" />
     <file path="/Transferdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409641594007" ignored="false" />
+    <file path="/Grnheader.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409648072160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,17 +177,7 @@
     <favorites_list name="erp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="69" selection-start="677" selection-end="677" vertical-scroll-proportion="0.36090225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -201,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Requisitiondt.php" />
         <option value="$PROJECT_DIR$/protected/models/Adjustdt.php" />
         <option value="$PROJECT_DIR$/protected/models/Productmaster.php" />
         <option value="$PROJECT_DIR$/protected/models/Vwunpaidinv.php" />
@@ -217,6 +209,8 @@
         <option value="$PROJECT_DIR$/protected/models/Transferdt.php" />
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
         <option value="$PROJECT_DIR$/protected/views/vwStock/admin.php" />
+        <option value="$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php" />
+        <option value="$PROJECT_DIR$/protected/models/Grnheader.php" />
       </list>
     </option>
   </component>
@@ -312,28 +306,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vwStock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -353,7 +325,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="smheader" />
+              <option name="myItemId" value="vouhcerheader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,14 +428,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045454" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -536,35 +526,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/VouhcerheaderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="589" column="28" selection-start="17659" selection-end="17659" vertical-scroll-proportion="0.4059406" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Vwunpaidinv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3773585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/vouhcerheader/ap_payment_voucher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="0" selection-start="13472" selection-end="13472" vertical-scroll-proportion="0.41509435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="336" selection-end="336" vertical-scroll-proportion="-0.7518797">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TransferhdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="24" selection-start="3152" selection-end="3183" vertical-scroll-proportion="-8.275862">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/transferhd/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="192" selection-start="3163" selection-end="3194" vertical-scroll-proportion="-6.8965516">
@@ -649,7 +610,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/vwStock/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="69" selection-start="677" selection-end="677" vertical-scroll-proportion="0.36090225">
+        <state line="25" column="53" selection-start="659" selection-end="661" vertical-scroll-proportion="0.18984963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/admin_invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.9172932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Vouhcerheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.18797">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/VouhcerheaderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="502" column="28" selection-start="15149" selection-end="15158" vertical-scroll-proportion="0.49112427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Grnheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="31" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.47368422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="15" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.2631579">
           <folding />
         </state>
       </provider>

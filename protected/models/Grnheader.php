@@ -28,6 +28,7 @@
 class Grnheader extends CActiveRecord
 {
 	public $cm_orgname;
+    public $supplier_search;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -50,9 +51,7 @@ class Grnheader extends CActiveRecord
 			array('im_date, inserttime, updatetime', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, im_grnnumber, im_purordnum, am_vouchernumber, im_date, cm_supplierid, pp_requisitionno, im_payterms, im_store, 
-					im_taxamt,im_netamt,  im_discrate, im_discamt, im_amount, im_status, inserttime, updatetime, insertuser, updateuser', 
-					'safe', 'on'=>'search'),
+			array('id, im_grnnumber, im_purordnum, am_vouchernumber, im_date, cm_supplierid, supplier_search, cm_orgname, pp_requisitionno, im_payterms, im_store,	im_taxamt,im_netamt,  im_discrate, im_discamt, im_amount, im_status, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,6 +64,7 @@ class Grnheader extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'grndetails' => array(self::HAS_MANY, 'Grndetail', 'im_grnnumber'),
+            'supplier' => array(self::BELONGS_TO, 'Suppliermaster', 'cm_supplierid'),
 		);
 	}
 
@@ -96,6 +96,7 @@ class Grnheader extends CActiveRecord
 			'insertuser' => 'Insertuser',
 			'updateuser' => 'Updateuser',
 		'cm_orgname' => 'Supplier Description',
+            'supplier_search' => 'Supplier Name',
 		);
 	}
 
@@ -177,6 +178,9 @@ class Grnheader extends CActiveRecord
 		$criteria->compare('updatetime',$this->updatetime,true);
 		$criteria->compare('insertuser',$this->insertuser,true);
 		$criteria->compare('updateuser',$this->updateuser,true);
+
+        $criteria->with = array( 'supplier' );
+        $criteria->compare( 'supplier.cm_orgname', $this->supplier_search, true );
 
         $criteria -> order = "id DESC";
 
