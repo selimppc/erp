@@ -135,6 +135,8 @@ class Transferhd extends CActiveRecord
 		$criteria->join = 'INNER JOIN cm_branchmaster m ON t.im_fromstore = m.cm_branch';
 		$criteria->join .= ' INNER JOIN cm_branchmaster n ON t.im_tostore = n.cm_branch';
 
+        $criteria -> order = "id DESC";
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
@@ -167,6 +169,8 @@ class Transferhd extends CActiveRecord
         $criteria->compare('updatetime',$this->updatetime,true);
         $criteria->compare('insertuser',$this->insertuser,true);
         $criteria->compare('updateuser',$this->updateuser,true);
+
+        $criteria -> order = "id DESC";
 
         return new CActiveDataProvider($this, array(
             'criteria'=>$criteria,

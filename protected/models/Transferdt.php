@@ -139,6 +139,8 @@ class Transferdt extends CActiveRecord
         $criteria->with = array( 'product' );
         $criteria->compare( 'product.cm_name', $this->product_search, true );
 
+        $criteria -> order = "id DESC";
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
