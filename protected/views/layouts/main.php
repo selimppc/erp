@@ -47,7 +47,7 @@
 <header class="header" id="sub-header">
     <div class="active-btn-holder">
     	<div id="icon_30x30_6_____" class="active-btn-icon_____"> 
-    		<p style="color: white; padding: 17px 5px 0px 5px; ">ERP for Entrepreneurs </p>
+    		<p style="color: white; padding: 17px 5px 0px 5px; ">ERP for Healthy Entrepreneurs</p>
     	</div>
     </div>
     <nav class="breadcrumb-holder">
