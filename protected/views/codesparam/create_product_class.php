@@ -55,7 +55,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">In this screen, you need to fill in all the fields, before clicking the button <b>“Enter Product Class”</b>.  Fields marked with (*) are mandatory. You can go back to <b>Settings</b> to view all Business Setup tools by clicking the menu tab <b>“ << Back to Settings”</b>.</div>
+    <div id="flag_desc_text">
+        <b>Product Class setup</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Enter Product Class”</b>. Fields marked with (*) are mandatory. You can go back to your home screen to view all business setup tool(s) by clicking the menu tab <b>“Back to Settings”</b>. <b>Action</b> buttons will allow you to update and delete.
+    </div>
 </div>
 
 
@@ -79,6 +81,7 @@ $this->menu=array(
 
                 array(
                     'class'=>'CButtonColumn',
+                    'header'=>'Action',
                     'template'=>'{update}{delete}',
 
                     'afterDelete'=>'function(link,success,data){ if(success) $("#statusMsg").html(data); }',

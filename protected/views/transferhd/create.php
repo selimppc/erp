@@ -49,7 +49,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> In this screen you need to fill in the fields, before clicking the button <b>“Add Transfer Header”</b>. Fields marked with (*) are mandatory. You can go back to your Manage Screen to view all Transfer Header information at a glance by clicking the menu tab <b>“Manage Transfer Header”</b>. You can also add new Transfer details on existing Transfer by clicking the link under <b>“Transfer Number”</b> column; this link will redirect you to Transfer Detail Page. <b>Action</b> buttons will allow you to update and delete.    </div>
+    <div id="flag_desc_text">
+        <b>New Transfer Header </b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add Transfer Header”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view Transfer Header’s information by clicking the menu tab <b>“Manage Transfer Header”</b>. Also you can add new voucher details on existing Transfer by clicking the link under <b> “Transfer  Number” </b> column; this link will redirect you to Transfer detail page. <b>Action</b> buttons will allow you to update and delete.
+
+    </div>
 </div>
 
 <div style="width: 98%; float: left;">

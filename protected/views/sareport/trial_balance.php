@@ -34,8 +34,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> <b>Trial Balance:</b>
-        Select Branch and input desire dates, from and to. To view report in pdf or xls click on "PDF" or "XLS" . *** Data Posting to GL is necessary for viewing and result. You can go back to the Report Tools to view all Report tools by clicking the menu tab “ << Back to Report”.
+    <div id="flag_desc_text">
+        <b>Trial Balance </b>: In this screen select Branch and input desire dates, from and to, to report in pdf or xls click <b>PDF</b> or <b>XLS</b> respectively. *** Data Posting to GL is necessary for viewing and result. You can go back to the Report Tools to view all Report tools by clicking the menu tab <b>“<< Back to Report”</b>.
+
     </div>
 </div>
 

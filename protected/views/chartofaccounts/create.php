@@ -57,8 +57,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> In this screen, you need to fillin all the fields before clicking the button <b>“Add New A/C”</b>.  Fields marked with (*) are mandatory. You can go back to your Manage Screen to view all Chart of Accounts
-        Information at a glance by clicking the menu tab <b>“Manage Chart of Accounts”</b>
+    <div id="flag_desc_text">
+        <b>New Chart of Account</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add New A/C”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view Chart of Account(s) by clicking the menu tab <b>“Manage Chart of Account”</b>.
+
     </div>
 </div>
 

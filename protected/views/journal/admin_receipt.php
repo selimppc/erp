@@ -50,7 +50,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b> Receipt Voucher:</b> To create receipt header information, click on the Menu tab <b>“New Receipt Header”</b>. You can also add new voucher details on existing voucher by clicking the <b> “Voucher Number” </b> link. This link will redirect you to Receipt Voucher Detail Page. <b>Action</b> buttons will allow you to update and delete. </div>
+    <div id="flag_desc_text">
+        <b>Manage Receipt Voucher</b>: This screen will allow you to view the overall Receipt Voucher’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete. You can also open a data entry screen to input new Receipt Voucher’s Information by clicking the Menu tab <b>“New Receipt Voucher”</b>.  Also you can view the reports by clicking the icon of pdf or xls under the <b>”Reports”</b> column.
+         </div>
 </div>
 
 

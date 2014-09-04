@@ -53,7 +53,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b> Manage Supplier: </b> This screen will allow you to view overall supplier’s detail; you can search specific data by choosing any title column. Action column will allow you to update and delete the desired data. You can also open an Entry Screen to input New Supplier Information by clicking the Menu tab <b>“New Supplier Master”</b> </div>
+    <div id="flag_desc_text">
+        <b>Manage Supplier Master</b>: This screen will allow you to view the overall supplier’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete the specific data. You can also open a data entry screen to input new supplier Information(s) by clicking the Menu tab <b>“New Supplier Master”</b>
+    </div>
 </div>
 
 

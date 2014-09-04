@@ -49,7 +49,8 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b> New Product Master:</b> In this screen you need to fill in all the fields, before clicking the button <b>“Save”</b>.  Fields mark with (*) are mandatory.</div>
+    <div id="flag_desc_text">
+        <b>New Product Master</b>: In this screen, you need to fill in all of the required fields before clicking the button <b>“Save”</b>. Fields mark with (*) are mandatory.</div>
 </div>
 
 

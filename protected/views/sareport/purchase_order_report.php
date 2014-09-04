@@ -33,7 +33,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> <b> Purchase order : </b> Select Purchase Order Number from the pull down menu to view report in pdf or xls. Click on <b>PDF</b> or <b>XLS</b>. *** Data Posting to GL is necessary for viewing and result. You can go back to the Report Tools to view all Report tools by clicking the menu tab <b>“ << Back to Report Tool”</b>.
+    <div id="flag_desc_text">
+        <b>Purchase order </b>: In this screen select Select Purchase Order Number from the pull down menu to report in pdf or xls click <b>PDF</b> or <b>XLS</b> respectively. *** Data Posting to GL is necessary for viewing and result. You can go back to the Report Tools to view all Report tools by clicking the menu tab <b>“<< Back to Report”</b>.
+
     </div>
 </div>
 

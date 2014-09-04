@@ -47,7 +47,9 @@ $this->menu=array(
 
     <div id="flag_desc">
         <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-        <div id="flag_desc_text">Adjustment Detail</div>
+        <div id="flag_desc_text">
+            <b>Stock Adjustment Detail</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add Adjustment Detail”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view Adjustment Header’s information by clicking the menu tab <b>“Manage Adjustment Header”</b>. <b>Action</b> buttons will allow you to update and delete.
+        </div>
     </div>
 
 

@@ -55,7 +55,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Create Customer Master: </b> In this screen you need to fill in all the fields, before clicking the button <b>“Save”</b>.  Fields marked with (*) are mandatory. You can go back to your Manage Screen to view all Customer information at a glance by clicking the menu tab <b>“Manage Customer”</b>.</div>
+    <div id="flag_desc_text">
+        <b>New Customer </b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Save”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view customer information(s) by clicking the menu tab <b>“Manage Customer”</b>.
+
+    </div>
 </div>
 
 

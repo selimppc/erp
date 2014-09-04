@@ -56,7 +56,7 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Create GRN from Purchase Order: </b> In this screen you will be able to view all purchase order history for creating <b>GRN</b>. To create new GRN click on the button<b>"Create GRN"</b> under <b>"Action"</b> column. You can also view the reports by clicking the link under <b>PO Number</b> column. To view <b>GRN</b> history with details click on the menu tab <b>"Manage GRN"</b> </div>
+    <div id="flag_desc_text"><b>Create GRN from Purchase Order: </b> In this screen you will be able to view all purchase order history for creating <b>GRN</b>. To create new GRN, click on the button<b>"Create GRN"</b> under <b>"Action"</b> column. You can also view the reports by clicking the link under <b>PO Number</b> column. To view <b>GRN</b> history with details click on the menu tab <b>"Manage GRN"</b> </div>
 </div>
 
 

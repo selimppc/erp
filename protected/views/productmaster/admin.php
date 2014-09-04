@@ -63,7 +63,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b> Manage Products:</b> This screen will allow you to view overall product description; you can search specific item by choosing any title column. Action column will allow you to update and delete the desired item.</div>
+    <div id="flag_desc_text">
+        <b>Manage Products Master</b>: This screen will allow you to view the overall product description; you can search specific item by selecting any title columns. Action column will allow you to update and delete the specific item.
+       </div>
 </div>
 
 

@@ -48,7 +48,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">Stock Adjustment</div>
+    <div id="flag_desc_text">
+        <b>Manage Stock Adjustment</b>: This screen will allow you to view the overall Stock Adjustment’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete. You can also confirm adjustment by clicking the button <b>“ Confirm Adjustment”</b> under the column <b>” Confirm Adjustment” </b>.
+
+    </div>
 </div>
 
 

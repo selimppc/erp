@@ -77,7 +77,7 @@ class Customermst extends CActiveRecord
 			'cm_group' => 'Customer Group',
 			'c_type'=>'Customer Type',
 	
-			'cm_cellnumber' => 'Cell Number',
+			'cm_cellnumber' => 'Mobile/Cell',
 			'cm_phone' => 'Phone',
 			'cm_fax' => 'Fax',
 			'cm_email' => 'Email',

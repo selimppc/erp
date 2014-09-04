@@ -49,8 +49,7 @@ $this->menu=array(
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
     <div id="flag_desc_text">
-        In this screen you need to fill in the fields, before clicking the button <b>“Add Requisition Header”</b>. Fields marked with (*) are mandatory. You can go back to your Manage Screen to view all Requisition Header information at a glance by clicking the menu tab <b>“Manage Requisition Header”</b>. You can also add new Requisition details on existing Requisition by clicking the link under <b>“Requisition Number”</b> column; this link will redirect you to Requisition Detail Page. Action buttons will allow you to update and delete.
-
+        <b>New Requisition Header </b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add Requisition Header”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view Requisition Header’s information by clicking the menu tab <b>“Manage Requisition Header”</b>. Also you can add new voucher details on existing Voucher by clicking the link under <b> “Requisition Number” </b> column; this link will redirect you to voucher detail page. <b>Action</b> buttons will allow you to update and delete.
     </div>
 </div>
 

@@ -46,7 +46,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">In this screen, you have the access & view to Sales Reports</div>
+    <div id="flag_desc_text">
+        <b>Report</b>: In this screen, you have the choice of viewing the Sales Reports.
+        </div>
 </div>
 
 

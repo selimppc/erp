@@ -96,6 +96,7 @@ table .money-receipt-sales, td, th
 					document.getElementById("tax_rate").value = "";
 					document.getElementById("unit_a").value = "";
 					document.getElementById("total").value = "0.00";
+                    document.getElementById("available").value = "";
 	
 			}
             addedProductCodes.push(td_productCode);
@@ -382,17 +383,22 @@ table .money-receipt-sales, td, th
 				<td> <input id="unit_a" style="width: 100px; padding: 3px;" readonly="readonly"/> </td>
 				<td> <input id="total" value="0.00" style="width: 100px; padding: 3px; text-align: right;" readonly="readonly"/> 
 					 <input type="hidden" id="total_a" style="width: 100px; padding: 3px;" readonly="readonly"/>
-					 <input type="hidden" id="available" style="width: 100px; padding: 3px;" readonly="readonly"/>
+
 					
 				</td>
 				<td> <span id="button_add"> Add </span> </td>
 			</tr>
 		</tbody>
-	</table>		
+	</table>
+    <div style="color: darkorange; font-style: italic; ">
+        <label style="width: 160px;"> <b>Available Quantity </b>: </label>
+        <b><input id="available" style="width: 100px; padding: 3px; background: none;color: darkorange; font-weight: bold; font-size: 14px;" readonly="readonly" /> </b>
+    </div>
+
 </div>
 <br>
 
-<div>
+<div style="float: left">
 	<table>
 		<tbody id="test">
 		</tbody>

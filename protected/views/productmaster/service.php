@@ -49,7 +49,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">In this screen all the fields need to be filled in before clicking the button <b>“Enter Service”</b>. Now you will able to view the service and details table on your right-hand side corner. Action buttons will allow you to update and delete.</div>
+    <div id="flag_desc_text">
+        In this screen all of the required fields need to be filled before clicking the button <b>“Enter Service”</b>. You will be able to view the service and details table on your right-hand side corner. By clicking icons under <b>“Action”</b> column will allow you to update and delete.
+        </div>
 </div>
 
 <div style="width: 98%; float: left;">

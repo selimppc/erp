@@ -57,7 +57,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Chart of Account's History:</b> This screen will allow you to view overall history; you can search specific data by choosing any title column. You can also open an Entry Screen to input New Chart of Accounts Information by clicking the Menu tab <b>“New Chart of Accounts”</b></div>
+    <div id="flag_desc_text">
+        <b>Chart of Account's History</b>: This screen will allow you to view the overall Chart of Account’s detail; you can search specific data by selecting any title columns. You can also open a data entry screen to input new Chart of Account(s) by clicking the Menu tab <b>“New Chart of Accounts”</b>
+
+      </div>
 </div>
 
 

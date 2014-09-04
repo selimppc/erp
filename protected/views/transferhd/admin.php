@@ -53,8 +53,12 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> <b> Transfer Header:</b>
-        To create transfer header information, click the menu tab <b>“New Transfer Header”</b>. You can also add new transfer details on existing <b>Transfer Number</b> by clicking the <b>“Transfer Number”</b> link. This link will redirect you to transfer detail. <b>"Action"</b> buttons will allow you to update and delete. You can also confirm transfer by clicking on the button under the column <b>"Confirm Dispatch"</b>
+    <div id="flag_desc_text">
+        <b>Manage Transfer Header</b>: This screen will allow you to view the overall Transfer Header’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete. You can also confirm Dispatch by clicking the button <b>“ Confirm Dispatch”</b> under the column <b>” Confirm Dispatch” </b>.
+
+
+
+
          </div>
 </div>
 

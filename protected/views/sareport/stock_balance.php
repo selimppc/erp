@@ -34,7 +34,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> <b>Stock Balance :</b> Select Branch and input desire dates. To view report in pdf or xls click on <b>"PDF"</b> or <b>"XLS"</b> . You can go back to the <b>Report Tools</b> to view all Report tools by clicking the menu tab  <b>" << Back to Report "</b>. </div>
+    <div id="flag_desc_text">
+        <b>Stock Balance </b>: In this screen select Branch and input desire dates to report in pdf or xls click <b>PDF</b> or <b>XLS</b> respectively. *** Data Posting to GL is necessary for viewing and result. You can go back to the Report Tools to view all Report tools by clicking the menu tab <b>“<< Back to Report”</b>.
+
+         </div>
 </div>
 
 <div style="clear: both;"></div>

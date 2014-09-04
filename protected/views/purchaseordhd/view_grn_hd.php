@@ -56,7 +56,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>GRN :</b> In this screen you will be able to view the <b>GRN</b> list. You can also confirm GRN by clicking the <b>Confirm</b> button under the <b>Action</b> column. And you can go to the detail page for each <b>GRN</b> by clicking the link under the <b>GRN Number</b> column. The link will redirect you to detail page to view or add new details. To view the GRN history click the menu tab <b>"GRN History"</b></div>
+    <div id="flag_desc_text">
+        <b>GRN </b>: This screen will allow you to view the overall GRN’s detail; you can search specific data by selecting any title columns. You can also confirm GRN by clicking the <b>Confirm</b> button under the <b>Action</b> column. And you can go to the detail page for each <b>GRN</b> by clicking the link under the <b>GRN Number</b> column.  The link will redirect you to detail page to view or add new details. To view the GRN history click the menu tab <b>"GRN History"</b>.
+
+    </div>
 </div>
 
 

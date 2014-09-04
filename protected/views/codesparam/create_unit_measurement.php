@@ -55,7 +55,10 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">In this screen you need to fill in all the fields, before clicking the button <b>“Enter Unit of Measurement”</b>.  Fields marked with (*) are mandatory. You can go back to the <b>Settings</b> to view all Business Setup tools by clicking the menu tab <b>“ << Back to Settings”</b>. <b>Action</b> buttons will allow you to update and delete.</div>
+    <div id="flag_desc_text">
+        <b>Unit of Measurement Setup</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Enter Unit of Measurement”</b>. Fields marked with (*) are mandatory. You can go back to your home screen to view all business setup tool(s) by clicking the menu tab <b>“Back to Settings”</b>.  By clicking the icons under <b>“Action”</b> column will allow you to update and delete the specific data.
+
+    </div>
 </div>
 
 

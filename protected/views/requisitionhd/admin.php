@@ -53,8 +53,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Requisition Header :</b>
-     To create requisition header information, click the Menu tab <b>“New Requisition Header”</b>. You can also add new requisition detail on existing requisition by clicking the <b>“Requisition Number”</b> link. This link will redirect you to Requisition Detail. <b>Action</b> buttons will allow you to update and delete.
+    <div id="flag_desc_text">
+        <b>Manage Requisition Header </b>: This screen will allow you to view the overall Requisition Header’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete. You can also open a data entry screen to input new Reverse Entry’s Information by clicking the Menu tab <b>“New Requisition Header”</b>.  Also you can create Purchase Order by clicking the icon of <b>“PO create by RE”</b> under the <b>” Create PO”</b> column.
+
 
     </div>
 </div>

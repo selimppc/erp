@@ -55,7 +55,7 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"> <b>Create Invoice (GRN):</b> This screen will allow you to view the GRN history. To create invoice from the list below click the <b>"Invoice"</b> button under <b>Action</b> column. By clicking <b>"Invoice"</b> button a link will appear under <b>GL Voucher No</b> in the table. By clicking the link will allow you to view the report(s). To add VAT, click on the button <b>VAT(%)</b> under the column <b>Add VAT</b>, a pop-up screen will appear for  VAT(%) calculation.
+    <div id="flag_desc_text"> <b>New Invoice (from GRN list):</b> This screen will allow you to view the GRN history. To create invoice from the list below click the <b>"Create Invoice"</b> button under <b>Action</b> column. By clicking <b>"Create Invoice"</b> button a link will appear under <b>"GL Voucher No"</b> column. This link will allow you to view the report(s). To add VAT, click on the button <b>"VAT(%)"</b> under the column <b>Add VAT</b>, a pop-up screen will appear for  VAT(%) calculation.
         <br>
         <span style="color: #df8505; font-weight: bold;"> Warning: this (VAT %) task must perform before creating invoice under action column.</span> </div>
 </div>

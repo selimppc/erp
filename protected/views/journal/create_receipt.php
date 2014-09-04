@@ -50,7 +50,11 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text">In this screen you need to fill in the fields, before clicking the button <b>“Add New Voucher”</b>.  Fields marked with (*) are mandatory. You can go back to your Manage Screen to view all Reverse Header information at a glance by clicking the menu tab <b>“Manage Receipt Header”</b>. Also you can add new voucher details on existing Voucher by clicking the link under <b> “Voucher Number” </b> column; this link will redirect you to Voucher Detail Page. <b>Action</b> buttons will allow you to update and delete.</div>
+    <div id="flag_desc_text">
+        <b>New Receipt Header</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add New Voucher”</b>. Fields marked with (*) are mandatory. You can go back to your homescreen to view Receipt Header's information by clicking the menu tab <b>“Manage Receipt Header”</b>. Also you can add new voucher details on existing Voucher by clicking the link under <b> “Voucher Number” </b> column; this link will redirect you to voucher detail page. <b>Action</b> buttons will allow you to update and delete.
+
+
+    </div>
 </div>
 
 <div style="width: 98%; float: left;">

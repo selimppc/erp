@@ -34,7 +34,7 @@
         <?php echo $form->labelEx($model,'cm_currency'); ?>
         <?php //echo $form->dropDownList($model,'pp_currency', CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description'), array('empty'=>'- Select Currency -', 'required'=>true, )); ?>
         <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
-        echo $form->dropDownList($model,'cm_currency', $currency, array('empty'=>'- Choose Currency -', 'required'=>TRUE,
+        echo $form->dropDownList($model,'cm_currency', $currency, array('empty'=>'- Select Currency -', 'required'=>TRUE,
 
             'ajax' => array(
                 'type'=>'POST',

@@ -49,7 +49,11 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Currency Maintenance :</b> In this screen all the fields need to be filled in before clicking the button <b>“Add New Currency”</b>. Now you will be able to view the Currency and details table on your right-hand side corner. <b>Action </b> Column will allow you to update details.</div>
+    <div id="flag_desc_text">
+        <b>Manage Currency Manage</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Add New Currency”</b>. Now you will be able to view the currency details table on your right-hand side. By clicking the icon under <b>“Action”</b> column will allow you to update the specific data.
+
+
+    </div>
 </div>
 <br>
 <div style="width: 98%; float: left;" >

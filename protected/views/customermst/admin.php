@@ -55,7 +55,9 @@ $this->menu=array(
 
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
-    <div id="flag_desc_text"><b>Manage Customer Master:</b> This screen will allow you to view overall Customer(s) Information; you can search specific data by choosing any title column. <b>Action</b> column will allow you to update and delete the desired data. You can also open an Entry Screen to input New Customer Information by clicking the Menu tab <b>“New Customer”</b></div>
+    <div id="flag_desc_text">
+        <b>Manage Customer Master</b>: This screen will allow you to view the overall customer’s detail; you can search specific data by selecting any title columns. By clicking the icons under <b>“Action”</b> column will allow you to update and delete the specific data. You can also open a data entry screen to input new customer Information(s) by clicking the Menu tab <b>“New Customer” </b>
+    </div>
 </div>
 
 
