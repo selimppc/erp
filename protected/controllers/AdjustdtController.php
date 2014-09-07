@@ -72,6 +72,8 @@ class AdjustdtController extends Controller
 
         $adjustDt = $this->actionAdjustDtAdmin($transaction_number);
 
+        $adjStatus = Adjusthd::model()->findByAttributes(array('transaction_number'=>$transaction_number))->adjustment_type;
+
 
         if(isset($_POST['Adjustdt']))
         {
@@ -99,7 +101,7 @@ class AdjustdtController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model, 'transaction_number'=>$transaction_number,
-            'adjustDt'=>$adjustDt, 'branch'=>$branch,
+            'adjustDt'=>$adjustDt, 'branch'=>$branch, 'adjStatus'=>$adjStatus,
 		));
 	}
 
@@ -118,6 +120,7 @@ class AdjustdtController extends Controller
         $adjustDt = $this->actionAdjustDtAdmin($transaction_number);
 
         $branch = Adjusthd::model()->findByAttributes(array('transaction_number'=>$transaction_number))->branch;
+        $adjStatus = Adjusthd::model()->findByAttributes(array('transaction_number'=>$transaction_number))->adjustment_type;
 
         if(isset($_POST['Adjustdt']))
         {
@@ -133,7 +136,7 @@ class AdjustdtController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model, 'transaction_number'=>$transaction_number,
-            'adjustDt'=>$adjustDt, 'branch'=>$branch,
+            'adjustDt'=>$adjustDt, 'branch'=>$branch, 'adjStatus'=>$adjStatus,
 		));
 	}
 
@@ -230,7 +233,7 @@ class AdjustdtController extends Controller
         //$date = date("Y-m-d");
 
         if (!empty($_GET['term'])) {
-            $sql = "SELECT cm_code as value, CONCAT(cm_name,' -- ' ,im_BatchNumber,' -- ', im_ExpireDate,' -- ',im_unit,' -- ', available,' -- ', im_rate) as label, im_BatchNumber as batch, im_ExpireDate as expire, im_unit as unit, im_rate as rate
+            $sql = "SELECT cm_code as value, CONCAT(cm_name,' -- ' ,available,' -- ', im_unit) as label, im_BatchNumber as batch, im_ExpireDate as expire, im_unit as unit, im_rate as rate
 		            FROM im_vw_stock
 		            WHERE im_storeid='$branchName' AND cm_name LIKE :qterm";
             $sql .= ' ORDER BY cm_name ASC';

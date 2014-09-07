@@ -55,6 +55,18 @@ $this->menu=array(
 
     <div style="width: 99%; float: left;">
         <div style="width: 47%; float: left; margin-right: 3%;">
+            <div style="background-color: #FFCCFF; width: 87%; text-align: center; color: #808080;">
+              Enter your product data for
+              <span style="color: orangered; font-weight: bold;">
+                  <?php
+                        if($adjStatus =='1'){
+                            echo "Postive Adjustment";
+                        }else if($adjStatus =='-1'){
+                            echo "Negative Adjustment";
+                        }
+                    ?>
+              </span>
+            </div>
             <?php $this->renderPartial('_form', array('model'=>$model, 'branch'=>$branch,)); ?>
         </div>
 
