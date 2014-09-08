@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" afterPath="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/adjustdt/create.php" afterPath="$PROJECT_DIR$/protected/views/adjustdt/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,7 +139,7 @@
     <file path="/grn_detail_admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406085633701" ignored="false" />
     <file path="/delivery_order.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408956935204" ignored="false" />
     <file path="/vat.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567521434" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410068508278" ignored="false" />
+    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410154377694" ignored="false" />
     <file path="/Vwpostimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407753597033" ignored="false" />
     <file path="/post.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828621082" ignored="false" />
     <file path="/_form_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408515391965" ignored="false" />
@@ -157,6 +156,24 @@
     <file path="/Vwunpaidinv.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409483202104" ignored="false" />
     <file path="/Transferdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409641594007" ignored="false" />
     <file path="/Grnheader.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409648072160" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/controllers/clogin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078573036" ignored="false" />
+    <file path="/clogin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078313195" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/controllers/cuser.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161028230" ignored="false" />
+    <file path="/forgot_password.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410080632317" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/user/forgot_password.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410080634498" ignored="false" />
+    <file path="/account_verified.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078730964" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/user/account_verified.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078737184" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/template/header.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078798449" ignored="false" />
+    <file path="/cuser.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410158135407" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/models/user.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410079643063" ignored="false" />
+    <file path="/user.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410079458686" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/controllers/cregistration.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410082237286" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/registration/registration_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410081771853" ignored="false" />
+    <file path="/registration_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410081748855" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/user/tpl_dashboard.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410159725570" ignored="false" />
+    <file path="/tpl_dashboard.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410159684445" ignored="false" />
+    <file path="$PROJECT_DIR$/../ehandout/application/views/user/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161764102" ignored="false" />
+    <file path="/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161744082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,22 +196,8 @@
       <file leaf-file-name="AdjustdtController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controllers/AdjustdtController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="9" selection-start="7999" selection-end="7999" vertical-scroll-proportion="0.754717">
+            <state line="17" column="34" selection-start="444" selection-end="444" vertical-scroll-proportion="0.6415094">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/adjustdt/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="98" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-5.9310346">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-                <marker date="1410075166482" expanded="true" signature="2728:2762" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -269,16 +272,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,48 +318,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adjustdt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -377,10 +340,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ehandout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dms" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -457,7 +420,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22803031" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23181818" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -620,19 +583,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/adjustdt/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="98" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-5.9310346">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <marker date="1410075166482" expanded="true" signature="2728:2762" placeholder="..." />
-          </folding>
-        </state>
+        <state line="57" column="98" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.43773586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/AdjustdtController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="9" selection-start="7999" selection-end="7999" vertical-scroll-proportion="0.754717">
+        <state line="17" column="34" selection-start="444" selection-end="444" vertical-scroll-proportion="0.6415094">
           <folding />
         </state>
       </provider>
