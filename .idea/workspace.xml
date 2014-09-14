@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/TransferdtController.php" afterPath="$PROJECT_DIR$/protected/controllers/TransferdtController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
@@ -139,7 +141,7 @@
     <file path="/grn_detail_admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406085633701" ignored="false" />
     <file path="/delivery_order.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408956935204" ignored="false" />
     <file path="/vat.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567521434" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410154377694" ignored="false" />
+    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410673748409" ignored="false" />
     <file path="/Vwpostimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407753597033" ignored="false" />
     <file path="/post.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828621082" ignored="false" />
     <file path="/_form_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408515391965" ignored="false" />
@@ -174,6 +176,8 @@
     <file path="/tpl_dashboard.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410159684445" ignored="false" />
     <file path="$PROJECT_DIR$/../ehandout/application/views/user/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161764102" ignored="false" />
     <file path="/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161744082" ignored="false" />
+    <file path="$PROJECT_DIR$/../erp_home/index.html" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410241520223" ignored="false" />
+    <file path="/index.html" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410241520223" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,17 +196,7 @@
     <favorites_list name="erp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AdjustdtController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/AdjustdtController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="444" selection-end="444" vertical-scroll-proportion="0.6415094">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -220,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/journal/admin_payment.php" />
         <option value="$PROJECT_DIR$/protected/views/journal/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/requisitionhd/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/requisitionhd/create.php" />
@@ -230,12 +223,13 @@
         <option value="$PROJECT_DIR$/protected/views/purchaseordhd/view_purchase_order_hd.php" />
         <option value="$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php" />
         <option value="$PROJECT_DIR$/protected/views/adjusthd/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
         <option value="$PROJECT_DIR$/protected/views/adjusthd/create.php" />
         <option value="$PROJECT_DIR$/protected/views/transferhd/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/transferhd/create.php" />
         <option value="$PROJECT_DIR$/protected/views/adjustdt/create.php" />
         <option value="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" />
+        <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/TransferdtController.php" />
       </list>
     </option>
   </component>
@@ -272,64 +266,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -383,6 +335,13 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -413,14 +372,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23181818" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23939393" sideWeight="0.6704918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -511,31 +470,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/requisitionhd/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="568" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.71428573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/requisitionhd/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.7518797" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2377" selection-end="2377" vertical-scroll-proportion="-4.137931" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.704501" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/new_purchase_order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="320" selection-end="320" vertical-scroll-proportion="-2.556391" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/PurchaseOrderNumberS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="0" selection-start="1822" selection-end="1822" vertical-scroll-proportion="0.45112783" />
@@ -554,11 +488,6 @@
     <entry file="file://$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="12" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.45112783" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="60" selection-start="16179" selection-end="16179" vertical-scroll-proportion="0.7406015" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/adjusthd/create.php">
@@ -588,7 +517,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/AdjustdtController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="444" selection-end="444" vertical-scroll-proportion="0.6415094">
+        <state line="17" column="34" selection-start="444" selection-end="444" vertical-scroll-proportion="0.037593983" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="423" column="19" selection-start="17357" selection-end="17357" vertical-scroll-proportion="0.48872182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/TransferdtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="303" column="33" selection-start="9915" selection-end="9915" vertical-scroll-proportion="0.37278107">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/transferdt/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="76" selection-start="1740" selection-end="1750" vertical-scroll-proportion="0.33834586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SmheaderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="592" column="14" selection-start="19445" selection-end="19451" vertical-scroll-proportion="0.37278107">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.007519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/create_money_receipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6315789">
           <folding />
         </state>
       </provider>

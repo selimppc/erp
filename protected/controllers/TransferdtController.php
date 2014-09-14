@@ -297,13 +297,14 @@ class TransferdtController extends Controller
 		function actionGetCmNames() 
 		{
           $branch = $_GET['branch'];
+          $date = date("Y-m-d");
 
 		  if (!empty($_GET['term'])) {
 
 			$sql = "SELECT t.cm_code as value, t.cm_name as label, t.cm_stkunit as unit, r.cm_code, SUM(r.available) as available
 		            FROM cm_productmaster t 
 		            INNER JOIN im_vw_stock r ON t.cm_code = r.cm_code
-		            WHERE t.cm_name LIKE :qterm AND r.im_storeid='$branch'
+		            WHERE t.cm_name LIKE :qterm AND r.im_storeid='$branch' AND r.im_ExpireDate >='$date'
 		            GROUP BY r.cm_code ";
 
             $sql .= ' ORDER BY label ASC';

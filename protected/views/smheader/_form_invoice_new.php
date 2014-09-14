@@ -414,10 +414,7 @@ table .money-receipt-sales, td, th
 			 <td> <b>Invoice Amount: </b> <?php //echo $form->labelEx($model,'sm_totalamt'); ?> </td>
 			 <td> <?php echo $form->textField($model,'sm_totalamt',array('value'=>'0', 'id'=>'sm_totalamt','class'=>'sm_totalamt', 'readonly'=>'readonly', 'style'=>'width: 148px;')); ?> </td>
 		</tr>	 
-		<tr> 
-			 <td> <label>Tax Amount</label> </td>
-			 <td> <?php echo $form->textField($model,'sm_total_tax_amt',array('value'=>'0', 'id'=>'sm_total_tax_amt','class'=>'sm_total_tax_amt', 'readonly'=>'readonly')); ?> </td>
-		</tr>
+
 		<tr> 
 			 <td> <?php echo $form->labelEx($model,'sm_disc_rate'); ?> </td>
 			 <td> <?php echo $form->textField($model,'sm_disc_rate',array('id'=>'sm_disc_rate','class'=>'sm_disc_rate', 'onchange' => 'discoutnRate();', 'placeholder'=>'0')); ?> </td>
@@ -426,7 +423,13 @@ table .money-receipt-sales, td, th
 			 <td> <?php echo $form->labelEx($model,'sm_disc_amt'); ?> </td>
 			 <td> <?php echo $form->textField($model,'sm_disc_amt',array('id'=>'sm_disc_amt','class'=>'sm_disc_amt', 'onchange' => 'discoutnAmount();', 'placeholder'=>'0')); ?> </td>
 		</tr>
-		<tr> 
+
+        <tr>
+            <td> <label>Tax Amount</label> </td>
+            <td> <?php echo $form->textField($model,'sm_total_tax_amt',array('value'=>'0', 'id'=>'sm_total_tax_amt','class'=>'sm_total_tax_amt', 'readonly'=>'readonly')); ?> </td>
+        </tr>
+        
+		<tr>
 			 <td> <label>Total Amount</label> </td>
 			 <td> <?php echo $form->textField($model,'sm_netamt',array('value'=>'0', 'id'=>'sm_netamt','class'=>'sm_netamt', 'readonly'=>'readonly')); ?> </td>
 		</tr>
