@@ -41,7 +41,7 @@ class SareportController extends Controller
                     'DeliveryOrderChallan', 'DeliveryOrderChallans', 'ProductList', 'ProductListReports',
                     'CustomerLedger', 'CustomerLedgerReport','CustomerLedgerSales', 'CustomerLedgerSalesReport',
                     'DirectSales', 'DirectSale', 'Adjustment', 'Adjustments', 'StockBalance', 'StockBalances',
-                    'StockBalanceAfterAd', 'StockBalanceAfterAds',
+                    'StockBalanceAfterAd', 'StockBalanceAfterAds', 'testReport',
                 ),
 				'users'=>array('@'),
 			),
@@ -54,7 +54,19 @@ class SareportController extends Controller
 			),
 		);
 	}
-	
+
+    public function actionTestReport(){
+
+        $re = new JasperReport('/reports/samples/AllAccounts',
+            JasperReport::FORMAT_HTML, array(
+                //'pBranch' => $branch,
+                //'pFromDate' => $fromDate,
+                //'pToDate' => $toDate,
+            )
+        );
+        $re->exec();
+        echo $re->toPDF();
+    }
 	public function actionIndex()
 	{
 		$this->render('index');
@@ -279,7 +291,7 @@ class SareportController extends Controller
             );
 
             $re->exec();
-            echo $re->reportToPDF();
+            echo $re->toPDF();
         }else{
 
             $re = new JasperReport('/Itabps/Reports/cm_productlist',
@@ -290,7 +302,7 @@ class SareportController extends Controller
             );
 
             $re->exec();
-            echo $re->reportToXLS();
+            echo $re->toXLS();
         }
 
 
@@ -315,18 +327,18 @@ class SareportController extends Controller
 
         if(isset($_POST['topdf']))
         {
-            $re = new JasperReport('/Itabps/Reports/ar_cusled',
+           $re = new JasperReport('/Itabps/Reports/ar_cusled',
                 JasperReport::FORMAT_PDF, array(
                     'pCustomer' => $pCustomer,
                     'pFromDate' => $pFromDate,
                     'pToDate' => $pToDate,
                 )
             );
-
             $re->exec();
             echo $re->reportToPDF();
-        }else{
 
+
+        }else{
             $re = new JasperReport('/Itabps/Reports/ar_cusled',
                 JasperReport::FORMAT_XLS, array(
                     'pCustomer' => $pCustomer,
@@ -334,7 +346,6 @@ class SareportController extends Controller
                     'pToDate' => $pToDate,
                 )
             );
-
             $re->exec();
             echo $re->reportToXLS();
         }

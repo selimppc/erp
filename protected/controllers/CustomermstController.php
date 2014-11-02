@@ -57,8 +57,8 @@ class CustomermstController extends Controller
 	}
 	
 	//Generate Customer Transaction Number
-	public function actionCusCode(){
-		$sql="SELECT Fu_GetTrn('Customer TRN Number','CUS-',4,0) ";
+	public function actionCusCode($s){
+		$sql="SELECT Fu_GetTrn('Customer District Code','$s',4,0) ";
 		$cmd=Yii::app()->db->createCommand($sql);
 		$result= $cmd -> queryScalar();
 		
@@ -75,11 +75,15 @@ class CustomermstController extends Controller
 
 				$model->inserttime = date("Y-m-d H:i");
                 $model->insertuser = Yii::app()->user->name;
+                $country = "RWA";
+
 
 		if(isset($_POST['Customermst']))
 		{
 			$model->attributes=$_POST['Customermst'];
-            $model->cm_cuscode = $this->actionCusCode();
+            $s = $model->cm_territory;
+            $r = $this->actionCusCode($s);
+            $model->cm_cuscode = $country."-".$r;
 
 			if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('customer', 'Success Message : Data Created Successfully !'));

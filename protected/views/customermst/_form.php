@@ -23,6 +23,15 @@
 	font-size: 12px;
 	height: 43px;
 }
+#part_20 textarea{
+    background: none;
+    padding: 1px;
+    width: 99%;
+    color: #666;
+    font-size: 12px;
+    height: 18px;
+}
+
 #part_40 textarea{
 	background: none;
 	padding: 3px;
@@ -128,9 +137,9 @@
 		<?php echo $form->labelEx($model,'cm_group'); ?>
 		<?php echo $form->dropDownList($model,'cm_group', CHtml::listData(Codesparam::model()->findAll('cm_type="Customer Group"'),'cm_code','cm_desc'), array('class'=>'hr_input_field')); ?>
 	</div>
-	<div id="part_20">
-		<?php echo $form->labelEx($model,'cm_cuscode'); ?>
-		<?php echo $form->textField($model,'cm_cuscode', array("readonly"=>True, 'style'=>$model->isNewRecord ? 'background: #efefef':'',)); ?>
+	<div id="part_240">
+		<?php //echo $form->labelEx($model,'cm_cuscode'); ?>
+		<?php //echo $form->textField($model,'cm_cuscode', array("readonly"=>True, 'style'=>$model->isNewRecord ? 'background: #efefef':'',)); ?>
 	</div>
 	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_name'); ?>
@@ -147,7 +156,7 @@
 </div>
 
 <div id="box_input_id">
-	<div id="part_40">
+	<div id="part_20">
 		<?php echo $form->labelEx($model,'cm_address'); ?>
 		<?php echo $form->textArea($model,'cm_address'); ?>
 	</div>
@@ -160,8 +169,10 @@
 		<?php echo $form->textField($model,'cm_email', array("required"=>TRUE )); ?>
 	</div>
 	<div id="part_20">
-		<?php echo $form->labelEx($model,'cm_branch'); ?>
-		<?php echo $form->dropDownList($model,'cm_branch', CHtml::listData(Branchmaster::model()->findAll(),'cm_branch','cm_description'), array('class'=>'hr_input_field')); ?>
+		<?php // echo $form->labelEx($model,'cm_branch'); ?>
+		<?php // echo $form->dropDownList($model,'cm_branch', CHtml::listData(Branchmaster::model()->findAll(),'cm_branch','cm_description'), array('class'=>'hr_input_field')); ?>
+        <label><span style="color: red;">Select District *</span> </label>
+        <?php echo $form->dropDownList($model,'cm_territory', CHtml::listData(Transaction::model()->findAll('cm_type="Customer District Code"'),'cm_trncode','cm_branch'), array('class'=>'hr_input_field')); ?>
 	</div>
 </div>
 
@@ -182,10 +193,7 @@
 		<?php echo $form->labelEx($model,'cm_creditlimit'); ?>
 		<?php echo $form->textField($model,'cm_creditlimit', array('value'=>'0.00', 'style'=>'text-align: right;') ); ?>
 	</div>
-	<div id="part_20">
-		<?php echo $form->labelEx($model,'cm_hub'); ?>
-		<?php echo $form->textField($model,'cm_hub' ); ?>
-	</div>
+
 	
 </div>
 

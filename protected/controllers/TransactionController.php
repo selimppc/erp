@@ -19,7 +19,7 @@ class TransactionController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'CreatePo','CreateGRNnumnber', 'CreateImTrnNum', 'CreateImTrn', 'ManageRequisitionNum', 'ManagePurchaseOrdNum', 'ManageImTrn', 'ManageImTranNum', 'ManageGRNnumnber', 'ViewRequisitionNumber', 'UpdateRequisitionNumber', 'ViewPurchaseOrderNumber', 'UpdatePurchaseOrderNumber', 'ViewGRNNumber' ,'UpdateGRNNumber', 'UpdateIMTransaction', 'CreateInvoiceNo', 'ManageInvoiceNo', 'CreateSalesReturnNo', 'ManageSalesReturnNo', 'CreateMoneyReceiptNo', 'ManageMoneyReceiptNo', 'CreateVoucherNo', 'ManageVoucherNo', 'createCustmerTrnNo', 'manageCustmerTrnNo', 'updateCustmerTrnNo'),
+				'actions'=>array('index','view', 'CreatePo','CreateGRNnumnber', 'CreateImTrnNum', 'CreateImTrn', 'ManageRequisitionNum', 'ManagePurchaseOrdNum', 'ManageImTrn', 'ManageImTranNum', 'ManageGRNnumnber', 'ViewRequisitionNumber', 'UpdateRequisitionNumber', 'ViewPurchaseOrderNumber', 'UpdatePurchaseOrderNumber', 'ViewGRNNumber' ,'UpdateGRNNumber', 'UpdateIMTransaction', 'CreateInvoiceNo', 'ManageInvoiceNo', 'CreateSalesReturnNo', 'ManageSalesReturnNo', 'CreateMoneyReceiptNo', 'ManageMoneyReceiptNo', 'CreateVoucherNo', 'ManageVoucherNo', 'createCustmerTrnNo', 'manageCustmerTrnNo', 'updateCustmerTrnNo', 'CreateCustomerDistrictCode', 'UpdateCustomerDistrictCode'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -1175,6 +1175,89 @@ class TransactionController extends Controller
 					'model'=>$model,
 				));
 			}
+
+
+
+
+
+
+
+    //// Customer District Code ///////////////////////////////////////////////////////////////////////////
+
+    public function actionCreateCustomerDistrictCode()
+    {
+        $model=new Transaction;
+        $model->cm_type = "Customer District Code";
+
+        $model->inserttime = date("Y-m-d H:i");
+        $model->insertuser = Yii::app()->user->name;
+
+        $data = new CActiveDataProvider('Transaction', array(
+            'criteria'=>array(
+                'condition'=> 't.cm_type = "Customer District Code" ',
+            ),
+            'pagination'=>array(
+                'pageSize'=>10,
+            ),
+        ));
+
+        if(isset($_POST['Transaction']))
+        {
+            $model->attributes=$_POST['Transaction'];
+            if($model->validate())
+            {
+                $cm_type = $model->cm_type;
+                $cm_trncode = $model->cm_trncode;
+
+                $result = $this->actionCheckTransaction($cm_type, $cm_trncode);
+
+                if($result ==1){
+                    Yii::app()->user->setFlash('error', Yii::t('customer District', 'Warning Message: Type and Code Already Exist!'));
+                }else{
+                    $this->saveModel($model);
+                    Yii::app()->user->setFlash('success', Yii::t('customer District', 'Success Message : Data Added Successfully !'));
+                }
+                $this->redirect(array('createCustomerDistrictCode'));
+            }
+        }
+        $this->render('create_customer_district_code',array(
+            'model'=>$model, 'data'=>$data,
+        ));
+    }
+
+
+    public function actionUpdateCustomerDistrictCode($cm_type, $cm_trncode)
+    {
+        $model=$this->loadModel($cm_type, $cm_trncode);
+
+        $model->updatetime = date("Y-m-d H:i");
+        $model->updateuser = Yii::app()->user->name;
+
+        if(isset($_POST['Transaction']))
+        {
+            $model->attributes=$_POST['Transaction'];
+            if($this->saveModel($model)){
+                Yii::app()->user->setFlash('success', Yii::t('transaction', 'Success Message : Data Updated Successfully !'));
+            }else{
+                Yii::app()->user->setFlash('error', Yii::t('transaction', 'Warning Message: Invalid request !'));
+            }
+            $this->redirect(array('manageCustmerTrnNo('));
+        }
+
+        $this->render('update_customer_no',array(
+            'model'=>$model,
+        ));
+    }
+
+
+
+
+
+
+
+
+
+
 		
     /*
      * ================================================================================

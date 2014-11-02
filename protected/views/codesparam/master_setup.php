@@ -143,6 +143,13 @@ $this->breadcrumbs=array(
                 <?php echo CHtml::link('Customer Transaction No Setup',array('transaction/createCustmerTrnNo')); ?>
             </div>
         </div>
+
+        <div id="report_main_div">
+            <div id="report_button">
+                <?php echo CHtml::link('Customer District Code',array('transaction/createCustomerDistrictCode')); ?>
+            </div>
+        </div>
+
     </div>
 -->
 </div>

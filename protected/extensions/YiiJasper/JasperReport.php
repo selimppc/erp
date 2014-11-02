@@ -13,8 +13,8 @@ class JasperReport extends CComponent {
     /**
     * @var string La url base del servidor jasper
     */
-    protected $baseUrl = 'http://37.230.100.79:8080/jasperserver/';
-    //protected $baseUrl = 'http://119.148.13.194:8080/jasperserver-pro/';
+    protected $baseUrl = 'http://localhost:8080/jasperserver/';
+	//protected $baseUrl = 'http://37.230.100.79:8080/jasperserver/';
 
     /**
     * @var string Uri para logearse en el servidor jasper
@@ -249,7 +249,7 @@ class JasperReport extends CComponent {
     * @param string $e titulo del error
     **/
     public function e($e){
-        return new Exception("{e} Error, HTTP Code: {$this->req->getStatusCode()}");
+       return new Exception("{e} Error, HTTP Code: {$this->req->getStatusCode()}");
     }
 
     /**
@@ -359,7 +359,7 @@ class JasperReport extends CComponent {
             return $this->req->getArrayResponse();
 
         } else
-            throw new Exception('Limite de tiempo excedido, por favor intente de nuevo');
+            throw new Exception('Limit Exceeded time, please try again ');
     }
 
     /**
