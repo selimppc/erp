@@ -1,13 +1,13 @@
 <?php
 $this->breadcrumbs=array(
     'Master Setup',
-	'Settings'=>array('codesparam/masterSetup'),
-	'Product Group',
+    'Settings'=>array('codesparam/masterSetup'),
+    'Product Category',
 );
 
 $this->menu=array(
     array('label'=>'<< Back to Settings', 'url'=>array('codesparam/masterSetup')),
-	array('label'=>'New Product Group', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/create_a.png" /></span>{menu}', 'url'=>array('codesparam/createProductGroup')),
+    array('label'=>'New Product Category', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/create_a.png" /></span>{menu}', 'url'=>array('codesparam/createProductGroup')),
     /*array('label'=>'Manage Product Group', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/manage_a.png" /></span>{menu}', 'url'=>array('productmaster/ProductGroup')),
 		array('label'=>'Settings', 'template'=>'<span><img src="'.Yii::app()->baseUrl.'/images/settings_a.png" /></span>{menu}', 'url'=>array(''), 'itemOptions'=>array('class'=>'productsubmenu'),
 		'items'=>array(
@@ -56,7 +56,7 @@ $this->menu=array(
 <div id="flag_desc">
     <div id="flag_desc_img"><img src="<?php echo Yii::app()->baseUrl.'/images/why.png'; ?>" /></div>
     <div id="flag_desc_text">
-        <b>Product Group Setup</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Enter Product Group”</b>. Fields marked with (*) are mandatory. You can go back to your home screen to view all business setup tool(s) by clicking the menu tab “Back to Settings”. By clicking the icons under <b>“Action”</b> column will allow you to update and delete the specific data.
+        <b>Product Category Setup</b>: In this screen, all of the required fields need to be filled before clicking the button <b>“Enter Product Category”</b>. Fields marked with (*) are mandatory. You can go back to your home screen to view all business setup tool(s) by clicking the menu tab “Back to Settings”. By clicking the icons under <b>“Action”</b> column will allow you to update and delete the specific data.
     </div>
 </div>
 
@@ -66,7 +66,7 @@ $this->menu=array(
     </div>
     <div style="width: 50%; float: left; ">
         <h1 style="background: #FFCCFF; padding: 7px; width: 97%; font-weight: bold; border-radius: 5px; text-align: center;">
-            Product Group Details
+            Product Category List
         </h1>
         <?php $this->widget('zii.widgets.grid.CGridView', array(
             'id'=>'class-grid',
@@ -81,11 +81,11 @@ $this->menu=array(
                     'name'=>'account_name',
                     'value'=>'$data->account_name',
                 ),
-                array(
+                /*array(
                     'header'=>'Sales Return A/C',
                     'name'=>'return_account',
-                    'value'=>'$data->return_account',
-                ),
+                    'value'=>'$data->return_account', //CHANGE BY AMIT
+                ),*/
                 array(
                     'header'=>'Stock A/C',
                     'name'=>'stock_account',

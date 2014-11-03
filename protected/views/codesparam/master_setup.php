@@ -88,13 +88,13 @@ $this->breadcrumbs=array(
 
         <div id="report_main_div">
             <div id="report_button">
-                <?php echo CHtml::link('Product Group Setup',array('codesparam/createProductGroup')); ?>
+                <?php echo CHtml::link('Product Category Setup',array('codesparam/createProductGroup')); ?>
             </div>
         </div>
 
         <div id="report_main_div">
             <div id="report_button">
-                <?php echo CHtml::link('Product Category Setup',array('codesparam/createProductCategory')); ?>
+                <?php echo CHtml::link('Product Group Setup',array('codesparam/createProductCategory')); ?>
             </div>
         </div>
 

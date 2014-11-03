@@ -2997,13 +2997,12 @@
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\reports\report2.php" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\themes\classic\views\.htaccess" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\ur.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Customermst.php" afterPath="$PROJECT_DIR$/protected/models/Customermst.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" afterPath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/YiiJasper/JasperReport.php" afterPath="$PROJECT_DIR$/protected/extensions/YiiJasper/JasperReport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SareportController.php" afterPath="$PROJECT_DIR$/protected/controllers/SareportController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/TransactionController.php" afterPath="$PROJECT_DIR$/protected/controllers/TransactionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/customermst/_form.php" afterPath="$PROJECT_DIR$/protected/views/customermst/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CodesparamController.php" afterPath="$PROJECT_DIR$/protected/controllers/CodesparamController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/itimtogl/_form.php" afterPath="$PROJECT_DIR$/protected/views/itimtogl/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/productmaster/_form.php" afterPath="$PROJECT_DIR$/protected/views/productmaster/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/codesparam/_form_product_group.php" afterPath="$PROJECT_DIR$/protected/views/codesparam/_form_product_group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/codesparam/create_product_category.php" afterPath="$PROJECT_DIR$/protected/views/codesparam/create_product_category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/codesparam/create_product_group.php" afterPath="$PROJECT_DIR$/protected/views/codesparam/create_product_group.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" afterPath="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -3142,7 +3141,7 @@
     <file path="/grn_detail_admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406085633701" ignored="false" />
     <file path="/delivery_order.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408956935204" ignored="false" />
     <file path="/vat.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567521434" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1414934596753" ignored="false" />
+    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1415020767709" ignored="false" />
     <file path="/Vwpostimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407753597033" ignored="false" />
     <file path="/post.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828621082" ignored="false" />
     <file path="/_form_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408515391965" ignored="false" />
@@ -3215,22 +3214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/vouhcerheader/ap_invoice.php" />
-        <option value="$PROJECT_DIR$/protected/views/adjusthd/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/adjusthd/create.php" />
-        <option value="$PROJECT_DIR$/protected/views/transferhd/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/transferhd/create.php" />
-        <option value="$PROJECT_DIR$/protected/views/adjustdt/create.php" />
         <option value="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" />
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TransferdtController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SareportController.php" />
         <option value="$PROJECT_DIR$/protected/extensions/YiiJasper/JasperReport.php" />
-        <option value="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TransactionController.php" />
-        <option value="$PROJECT_DIR$/protected/views/customermst/_form.php" />
         <option value="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
         <option value="$PROJECT_DIR$/protected/models/Customermst.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/CodesparamController.php" />
+        <option value="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" />
+        <option value="$PROJECT_DIR$/protected/views/codesparam/create_product_group.php" />
+        <option value="$PROJECT_DIR$/protected/views/codesparam/create_product_category.php" />
+        <option value="$PROJECT_DIR$/protected/views/codesparam/_form_product_group.php" />
+        <option value="$PROJECT_DIR$/protected/views/customermst/_form.php" />
+        <option value="$PROJECT_DIR$/protected/views/itimtogl/_form.php" />
+        <option value="$PROJECT_DIR$/protected/views/productmaster/_form.php" />
       </list>
     </option>
   </component>
@@ -3286,8 +3285,8 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -3324,14 +3323,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -3371,7 +3370,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121212" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -3454,7 +3453,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/protected/controllers/CodesparamController.php</url>
-          <line>525</line>
+          <line>526</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -3462,86 +3461,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="423" column="19" selection-start="17357" selection-end="17357" vertical-scroll-proportion="0.48872182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TransferdtController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="33" selection-start="9915" selection-end="9915" vertical-scroll-proportion="0.37278107" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/transferdt/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="76" selection-start="1740" selection-end="1750" vertical-scroll-proportion="0.33834586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SmheaderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="592" column="14" selection-start="19445" selection-end="19451" vertical-scroll-proportion="0.37278107" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.007519" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/create_money_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6315789" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SareportController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.075187966">
-          <folding />
-        </state>
+        <state line="58" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.075187966" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/extensions/YiiJasper/JasperReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="61" selection-start="355" selection-end="355" vertical-scroll-proportion="0.037593983">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/codesparam/master_setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="84" selection-start="4582" selection-end="4582" vertical-scroll-proportion="-8.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/customermst/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="59" selection-start="4069" selection-end="4081" vertical-scroll-proportion="-3.4482758">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#label#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="61" selection-start="355" selection-end="355" vertical-scroll-proportion="0.037593983" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/customermst/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="45.517242">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="45.517242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Currency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.641879">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.641879" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Grnheader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="39" selection-start="5229" selection-end="5260" vertical-scroll-proportion="-8.275862">
-          <folding />
-        </state>
+        <state line="144" column="39" selection-start="5229" selection-end="5260" vertical-scroll-proportion="-8.275862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Customermst.php">
@@ -3553,15 +3495,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/CustomermstController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="12" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.5488722">
-          <folding />
-        </state>
+        <state line="85" column="12" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.5488722" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TransactionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1181" column="0" selection-start="38566" selection-end="38566" vertical-scroll-proportion="0.8954635">
+        <state line="1181" column="0" selection-start="38566" selection-end="38566" vertical-scroll-proportion="0.8954635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CodesparamController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="768" column="53" selection-start="24763" selection-end="24763" vertical-scroll-proportion="0.6616541">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/codesparam/master_setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="53" selection-start="2724" selection-end="2724" vertical-scroll-proportion="0.62969923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/codesparam/create_product_group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="124" selection-end="124" vertical-scroll-proportion="-2.7586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/codesparam/create_product_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="-2.7586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/codesparam/_form_product_group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="3820" selection-end="3820" vertical-scroll-proportion="-8.689655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/customermst/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="10" selection-start="4483" selection-end="4483" vertical-scroll-proportion="2.3533835">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/itimtogl/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="6" selection-start="7646" selection-end="7646" vertical-scroll-proportion="0.924812">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#2660#3530#0" expanded="true" />
+            <element signature="e#4212#5082#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/productmaster/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="0" selection-start="9971" selection-end="9971" vertical-scroll-proportion="0.7744361">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

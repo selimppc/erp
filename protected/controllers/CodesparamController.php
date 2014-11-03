@@ -126,7 +126,7 @@ class CodesparamController extends Controller
         $model->updatetime = date("Y-m-d H:i");
         $model->updateuser = Yii::app()->user->name;
 
-        $data = $this->actionDataProductGroup("Product Group");
+        $data = $this->actionDataProductGroup("Product Category");
         if(isset($_POST['Codesparam']))
         {
             $model->attributes=$_POST['Codesparam'];
@@ -134,7 +134,7 @@ class CodesparamController extends Controller
             if($model->validate())
             {
                 $this->saveModel($model);
-                Yii::app()->user->setFlash('success', Yii::t('productGroup', 'Success Message : Product Group Updated Successfully !'));
+                Yii::app()->user->setFlash('success', Yii::t('productGroup', 'Success Message : Product Category Updated Successfully !'));
             }
 
             $this->redirect(array('createProductGroup'));
@@ -153,7 +153,7 @@ class CodesparamController extends Controller
         $model->updatetime = date("Y-m-d H:i");
         $model->updateuser = Yii::app()->user->name;
 
-        $data = $this->actionAdminCodes("Product Category");
+        $data = $this->actionAdminCodes("Product Group");
 
         if(isset($_POST['Codesparam']))
         {
@@ -161,7 +161,7 @@ class CodesparamController extends Controller
             if($model->validate())
             {
                 $this->saveModel($model);
-                Yii::app()->user->setFlash('success', Yii::t('productCategory', 'Success Message : Product Category Updated Successfully !'));
+                Yii::app()->user->setFlash('success', Yii::t('productCategory', 'Success Message : Product Group Updated Successfully !'));
             }
 
             $this->redirect(array('createProductCategory'));
@@ -187,7 +187,7 @@ class CodesparamController extends Controller
             if($model->validate())
             {
                 $this->saveModel($model);
-                Yii::app()->user->setFlash('success', Yii::t('uom', 'Success Message : Product Category Updated Successfully !'));
+                Yii::app()->user->setFlash('success', Yii::t('uom', 'Success Message :  Updated Successfully !'));
             }
             $this->redirect(array('unitOfMeasurement'));
         }
@@ -373,10 +373,11 @@ class CodesparamController extends Controller
     }
     private function actionDataProductGroup($cm_type){
 
+        //n.am_description as return_account, //CHANGE BY AMIT
         $criteria = new CDbCriteria();
-        $criteria -> select = "t.*, c.am_description as account_name, n.am_description as return_account, m.am_description as stock_account";
+        $criteria -> select = "t.*, c.am_description as account_name, m.am_description as stock_account";
         $criteria -> join = "INNER JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
-        $criteria -> join .= " INNER JOIN am_chartofaccounts n ON n.am_accountcode = t.cm_accrtn";
+        //$criteria -> join .= " INNER JOIN am_chartofaccounts n ON n.am_accountcode = t.cm_accrtn"; //CHANGE BY AMIT
         $criteria -> join .= " INNER JOIN am_chartofaccounts m ON m.am_accountcode = t.cm_accdr";
         $criteria -> condition = "t.cm_type = '{$cm_type}'";
 
@@ -459,11 +460,11 @@ class CodesparamController extends Controller
 	{
 	    $model=new Codesparam;
 
-	        $model->cm_type ="Product Group";
+	        $model->cm_type ="Product Category";
 	    		$model->inserttime = date("Y-m-d H:i");
                 $model->insertuser = Yii::app()->user->name;
 
-        $data = $this->actionDataProductGroup("Product Group");
+        $data = $this->actionDataProductGroup("Product Category");
 
 	    if(isset($_POST['Codesparam']))
 	    {
@@ -493,11 +494,11 @@ class CodesparamController extends Controller
 	public function actionCreateProductCategory()
 	{
 	    $model=new Codesparam;
-        $model->cm_type ="Product Category";
+        $model->cm_type ="Product Group";
 	    		$model->inserttime = date("Y-m-d H:i");
                 $model->insertuser = Yii::app()->user->name;
 
-        $data = $this->actionAdminCodes("Product Category");
+        $data = $this->actionAdminCodes("Product Group");
 
 	    if(isset($_POST['Codesparam']))
 	    {
