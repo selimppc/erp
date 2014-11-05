@@ -16,7 +16,7 @@ $this->menu=array(
 	<img src=" <?php echo Yii::app()->baseUrl.'/images/companyprofile/'.$model->photo ?>" /> 
 	<p>&nbsp;</p>
 	<h2><span style="color: #004D99;">WELCOME</span> <br><br> <span style="color: #CA1C00; text-transform:uppercase;"> <?php echo $model->title; ?> </span></h2>
-	<p style="color: #444;">...High Quality Medicines For The People Of Haiti </p><br>
+	<p style="color: #444;"> </p><br>
 	<h3><?php // echo $model->shortdescription; ?> </h3>
 	
 	<h4 style="color: #666; line-height: 25px; font-size: 14px;"><?php echo $model->longdescription; ?> </h4><br>

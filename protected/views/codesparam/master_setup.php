@@ -146,7 +146,7 @@ $this->breadcrumbs=array(
 
         <div id="report_main_div">
             <div id="report_button">
-                <?php echo CHtml::link('Customer District Code',array('transaction/createCustomerDistrictCode')); ?>
+                <?php echo CHtml::link('Customer District Code',array('codesparam/createDistrictCode')); ?>
             </div>
         </div>
 

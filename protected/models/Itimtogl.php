@@ -116,8 +116,8 @@ class Itimtogl extends CActiveRecord
 		$criteria->compare('updateuser',$this->updateuser,true);
 
         $criteria->select = 't.*, m.am_description as accdr, n.am_description as acccr';
-        $criteria->join = 'INNER JOIN am_chartofaccounts m ON t.c_accdr = m.am_accountcode';
-        $criteria->join .= ' INNER JOIN am_chartofaccounts n ON t.c_acccr = n.am_accountcode';
+        $criteria->join = 'LEFT JOIN am_chartofaccounts m ON t.c_accdr = m.am_accountcode';
+        $criteria->join .= ' LEFT JOIN am_chartofaccounts n ON t.c_acccr = n.am_accountcode';
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

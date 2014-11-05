@@ -227,7 +227,7 @@ class AdjustdtController extends Controller
 	}
 
 
-    function actionGetStockNames()
+    /*function actionGetStockNames()
     {
         $branchName = $_GET['branchName'];
         //$date = date("Y-m-d");
@@ -245,6 +245,46 @@ class AdjustdtController extends Controller
             echo CJSON::encode($result); exit;
         } else {
             return false;
+        }
+
+    }*/
+
+    function actionGetStockNames()
+    {
+        $branchName = $_GET['branchName'];
+        $adjustmentType = $_GET['adjustmentType'];
+        //$date = date("Y-m-d");
+        if($adjustmentType == 'Negative Adjustment'){
+            if (!empty($_GET['term'])) {
+
+                $sql = "SELECT cm_code as value, cm_name as label, cm_stkunit as unit
+                        FROM cm_productmaster
+                        WHERE cm_name LIKE :qterm";
+                $sql .= ' ORDER BY cm_name ASC';
+                $command = Yii::app()->db->createCommand($sql);
+                $qterm = $_GET['term'] . '%';
+                $command->bindParam(":qterm", $qterm, PDO::PARAM_STR);
+                $result = $command->queryAll();
+                echo CJSON::encode($result); exit;
+            } else {
+                return false;
+            }
+        }else{
+            if (!empty($_GET['term'])) {
+                $sql = "SELECT cm_code as value, CONCAT(cm_name,' -- ' ,available,' -- ', im_unit) as label, im_BatchNumber as batch, im_ExpireDate as expire, im_unit as unit, im_rate as rate
+		            FROM im_vw_stock
+		            WHERE im_storeid='$branchName' AND cm_name LIKE :qterm";
+                $sql .= ' ORDER BY cm_name ASC';
+                $command = Yii::app()->db->createCommand($sql);
+                $qterm = $_GET['term'].'%';
+                $command->bindParam(":qterm", $qterm, PDO::PARAM_STR);
+                $result = $command->queryAll();
+
+                echo CJSON::encode($result); exit;
+            } else {
+                return false;
+            }
+
         }
 
     }

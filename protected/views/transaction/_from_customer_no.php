@@ -29,7 +29,13 @@
         <?php echo $form->textField($model,'cm_trncode', array('style'=>'text-transform: uppercase', $model->isNewRecord ? '' : "readonly"=>True)); ?>
         <?php echo $form->error($model,'cm_trncode'); ?>
     </div>
-	
+
+    <div class="row">
+        <label> <span style="color: red;">District Code * </span></label>
+        <?php echo $form->dropDownList($model,'cm_branch', CHtml::listData(Codesparam::model()->findAll('cm_type = "District Code"'), 'cm_code', 'cm_desc'), array('empty'=>'- Select District -', 'required'=>TRUE,)); ?>
+        <?php echo $form->error($model,'cm_branch'); ?>
+    </div>
+
     <div class="row">
         <?php echo $form->labelEx($model,'cm_lastnumber'); ?>
         <?php echo $form->textField($model,'cm_lastnumber', array('value'=>'0')); ?>

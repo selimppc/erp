@@ -70,6 +70,7 @@ $this->menu=array(
             'columns'=>array(
                 'cm_type',
                 'cm_trncode',
+                'cm_branch',
                 'cm_lastnumber',
                 'cm_increment',
                 //'cm_active',

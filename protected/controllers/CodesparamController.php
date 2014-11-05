@@ -24,8 +24,7 @@ class CodesparamController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','admin','update','delete', 'CreateCustomerGroup', 'ManageCustomerGroup', 'CreateMarket', 'ManageMarket',
-                        'MasterSetup', 'updateProductCategory', 'updateUom', 'UpdateCustomerGroup',
+				'actions'=>array('create','admin','update','delete', 'CreateCustomerGroup', 'ManageCustomerGroup', 'CreateMarket', 'ManageMarket','MasterSetup', 'updateProductCategory', 'updateUom', 'UpdateCustomerGroup', 'CreateDistrictCode',
                 ),
 				'users'=>array('@'),
 			),
@@ -376,9 +375,9 @@ class CodesparamController extends Controller
         //n.am_description as return_account, //CHANGE BY AMIT
         $criteria = new CDbCriteria();
         $criteria -> select = "t.*, c.am_description as account_name, m.am_description as stock_account";
-        $criteria -> join = "INNER JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
+        $criteria -> join = "LEFT JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
         //$criteria -> join .= " INNER JOIN am_chartofaccounts n ON n.am_accountcode = t.cm_accrtn"; //CHANGE BY AMIT
-        $criteria -> join .= " INNER JOIN am_chartofaccounts m ON m.am_accountcode = t.cm_accdr";
+        $criteria -> join .= " LEFT JOIN am_chartofaccounts m ON m.am_accountcode = t.cm_accdr";
         $criteria -> condition = "t.cm_type = '{$cm_type}'";
 
         $data = new CActiveDataProvider('Codesparam',array(
@@ -392,7 +391,7 @@ class CodesparamController extends Controller
 
         $criteria = new CDbCriteria();
         $criteria -> select = "t.*, c.am_description as account_name";
-        $criteria -> join = "INNER JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
+        $criteria -> join = "LEFT JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
         $criteria -> condition = "t.cm_type = '{$cm_type}'";
 
         $data = new CActiveDataProvider('Codesparam',array(
@@ -407,9 +406,9 @@ class CodesparamController extends Controller
 
         $criteria = new CDbCriteria();
         $criteria -> select = "t.*, c.am_description as account_name, n.am_description as disc_account, m.am_description as tax_account, p.am_description as revenue_account";
-        $criteria -> join = "INNER JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
-        $criteria -> join .= " INNER JOIN am_chartofaccounts n ON n.am_accountcode = t.cm_accdisc";
-        $criteria -> join .= " INNER JOIN am_chartofaccounts m ON m.am_accountcode = t.cm_acctax";
+        $criteria -> join = "LEFT JOIN am_chartofaccounts c  ON  c.am_accountcode = t.cm_acccode ";
+        $criteria -> join .= " LEFT JOIN am_chartofaccounts n ON n.am_accountcode = t.cm_accdisc";
+        $criteria -> join .= " LEFT JOIN am_chartofaccounts m ON m.am_accountcode = t.cm_acctax";
         $criteria -> join .= " LEFT JOIN am_chartofaccounts p ON p.am_accountcode = t.cm_accdr";
 
         $criteria -> condition = "t.cm_type = '{$cm_type}'";
@@ -770,6 +769,49 @@ class CodesparamController extends Controller
 
         $this->render('master_setup', array(
             //'model'=>$model,
+        ));
+    }
+
+
+
+
+    /*
+     * ==============================================================================
+     *
+     * Create District Code
+     * =============================================================================
+     */
+
+    public function actionCreateDistrictCode()
+    {
+        $model=new Codesparam;
+        $model->cm_type ="District Code";
+        $model->inserttime = date("Y-m-d H:i");
+        $model->insertuser = Yii::app()->user->name;
+
+        $data = $this->actionAdminCodes("District Code");
+
+        if(isset($_POST['Codesparam']))
+        {
+            $model->attributes=$_POST['Codesparam'];
+            if($model->validate())
+            {
+                $cm_type = $model->cm_type;
+                $cm_code = $model->cm_code;
+
+                $result = $this->actionCheckCodesParam($cm_type, $cm_code);
+
+                if($result ==1){
+                    Yii::app()->user->setFlash('error', Yii::t('productClass', 'Warning Message: Type and Code Already Exist!'));
+                }else{
+                    $this->saveModel($model);
+                    Yii::app()->user->setFlash('success', Yii::t('productClass', 'Success Message : Data Added Successfully !'));
+                }
+                $this->redirect(array('createDistrictCode'));
+            }
+        }
+        $this->render('create_district_code',array(
+            'model'=>$model, 'data'=>$data,
         ));
     }
 }
