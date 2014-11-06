@@ -65,7 +65,7 @@ class User extends CActiveRecord
             //array('email', 'compare', 'compareAttribute'=>'confirmemail',  'message'=>'Email does not match'),
             array('repeatpassword', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match", 'on'=>'create, update'),
             
-            array('username, email, repeatpassword, employeebranch, password, superuser, status', 'required'),
+            array('username, email, repeatpassword, employeebranch, user_type, password, superuser, status', 'required'),
 			array('superuser, status', 'numerical', 'integerOnly'=>true),
 			array('id, username, password, email, activkey, create_at, lastvisit_at, superuser, status', 'safe', 'on'=>'search'),
 		):((Yii::app()->user->id==$this->id)?array(
@@ -103,6 +103,7 @@ class User extends CActiveRecord
             'repeatpassword'=>UserModule::t("Retype Password"),
             'employeeid'=>UserModule::t("Employee Id"),
 			'employeebranch'=>UserModule::t("Employee Branch"),
+            'user_type'=>UserModule::t("User Type"),
 							
 			'verifyCode'=>UserModule::t("Verification Code"),
 			'activkey' => UserModule::t("activation key"),
@@ -130,7 +131,7 @@ class User extends CActiveRecord
                 'condition'=>'superuser=1',
             ),
             'notsafe'=>array(
-            	'select' => 'id, username, password, email, employeeid, employeebranch, activkey, create_at, lastvisit_at, superuser, status',
+            	'select' => 'id, username, password, email, employeeid, employeebranch, user_type, activkey, create_at, lastvisit_at, superuser, status',
             ),
         );
     }
@@ -139,7 +140,7 @@ class User extends CActiveRecord
     {
         return CMap::mergeArray(Yii::app()->getModule('user')->defaultScope,array(
             'alias'=>'user',
-            'select' => 'user.id, user.username, user.email, user.employeeid, user.employeebranch, user.create_at, user.lastvisit_at, user.superuser, user.status',
+            'select' => 'user.id, user.username, user.email, user.employeeid, user.employeebranch, user.user_type, user.create_at, user.lastvisit_at, user.superuser, user.status',
         ));
     }
 	
@@ -178,6 +179,7 @@ class User extends CActiveRecord
         $criteria->compare('email',$this->email,true);
         $criteria->compare('employeeid',$this->employeeid,true);
         $criteria->compare('employeebranch', $this->employeebranch,true);
+        $criteria->compare('user_type', $this->user_type,true);
         $criteria->compare('activkey',$this->activkey);
         $criteria->compare('create_at',$this->create_at);
         $criteria->compare('lastvisit_at',$this->lastvisit_at);

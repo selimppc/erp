@@ -163,6 +163,7 @@ class ProductmasterController extends Controller
 	 */
 	public function actionAdmin()
 	{
+
 		$model=new Productmaster('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Productmaster']))

@@ -74,8 +74,12 @@
     <aside class="primary-navigation-holder">
         <div class="primary-nav-scroller">
             <div class="primary-navigation-item-list">
-                
- <?php  if(Yii::app()->user->name=='admin'){ ?>
+
+ <?php
+     $username = Yii::app()->user->name;
+     $user_type = User::model()->findByAttributes(array('username'=>$username))->user_type;
+ ?>
+ <?php  if( $user_type=='Admin'){ ?>
 
                     <?php $this->widget('zii.widgets.jui.CJuiAccordion',array(
                         'panels'=>array(
@@ -186,7 +190,7 @@
 
                     )); ?>
 
- <?php }elseif(Yii::app()->user->name=='demo'){ ?>
+ <?php }elseif($user_type=='Sales'){ ?>
 
      <?php $this->widget('zii.widgets.jui.CJuiAccordion',array(
          'panels'=>array(

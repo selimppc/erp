@@ -42,7 +42,6 @@ class UserIdentity extends CUserIdentity
 			$this->_id=$user->id;
 			$this->username=$user->username;
 			$this->setState('employeebranch', $user->employeebranch);
-
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;

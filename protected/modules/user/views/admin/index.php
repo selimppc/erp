@@ -54,6 +54,7 @@ $('.search-form form').submit(function(){
 			'value'=>'CHtml::link(UHtml::markSearch($data,"employeeid"),array("admin/view","id"=>$data->id))',
 		),
 		'employeebranch',
+        'user_type',
 		'create_at',
 		'lastvisit_at',
 		array(
@@ -68,6 +69,7 @@ $('.search-form form').submit(function(){
 		),
 		array(
 			'class'=>'CButtonColumn',
+            'header'=>'Action',
 		),
 	),
 )); ?>

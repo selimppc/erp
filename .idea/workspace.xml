@@ -2998,194 +2998,21 @@
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\themes\classic\views\.htaccess" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\ur.sql" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\sayjj_live.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/companyprofile/logo_he.png" afterPath="$PROJECT_DIR$/images/companyprofile/logo_he.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" afterPath="$PROJECT_DIR$/protected/controllers/AdjustdtController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CodesparamController.php" afterPath="$PROJECT_DIR$/protected/controllers/CodesparamController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" afterPath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Itimtogl.php" afterPath="$PROJECT_DIR$/protected/models/Itimtogl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/adjustdt/_form.php" afterPath="$PROJECT_DIR$/protected/views/adjustdt/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/customermst/_form.php" afterPath="$PROJECT_DIR$/protected/views/customermst/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/transaction/_from_customer_no.php" afterPath="$PROJECT_DIR$/protected/views/transaction/_from_customer_no.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" afterPath="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/models/User.php" afterPath="$PROJECT_DIR$/protected/modules/user/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/components/UserIdentity.php" afterPath="$PROJECT_DIR$/protected/modules/user/components/UserIdentity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/adjustdt/create.php" afterPath="$PROJECT_DIR$/protected/views/adjustdt/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/transaction/create_customer_no.php" afterPath="$PROJECT_DIR$/protected/views/transaction/create_customer_no.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" afterPath="$PROJECT_DIR$/protected/views/codesparam/master_setup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/companyprofile/view.php" afterPath="$PROJECT_DIR$/protected/views/companyprofile/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/SmheaderController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408964016004" ignored="false" />
-    <file path="/_form_invoice_new.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409821068622" ignored="false" />
-    <file path="/_form_product_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405744937406" ignored="false" />
-    <file path="/CodesparamController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1415033284078" ignored="false" />
-    <file path="/group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1403566898219" ignored="false" />
-    <file path="/ItImtoap.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1403638077072" ignored="false" />
-    <file path="/Itimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405224650481" ignored="false" />
-    <file path="/RequisitionhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404882624171" ignored="false" />
-    <file path="/admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409824334487" ignored="false" />
-    <file path="/_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1414940256699" ignored="false" />
-    <file path="/PurchaseordhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405923170685" ignored="false" />
-    <file path="/PurchaseorddtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405491250604" ignored="false" />
-    <file path="/Purchaseordhd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404863958636" ignored="false" />
-    <file path="/Imtransaction.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407756157502" ignored="false" />
-    <file path="/Smheader.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408621713356" ignored="false" />
-    <file path="/journal_transaction.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081609316" ignored="false" />
-    <file path="/VouhcerheaderController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408614012397" ignored="false" />
-    <file path="/TransferhdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405196069250" ignored="false" />
-    <file path="/style.css" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567616229" ignored="false" />
-    <file path="/main.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408353588091" ignored="false" />
-    <file path="/Currency.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404427604069" ignored="false" />
-    <file path="/create.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410075163577" ignored="false" />
-    <file path="/CurrencyController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404436079512" ignored="false" />
-    <file path="/BranchcurrencyController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404522774483" ignored="false" />
-    <file path="/branch_currency.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404523036528" ignored="false" />
-    <file path="/BranchmasterController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404523244164" ignored="false" />
-    <file path="/ChartofaccountsController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404674207743" ignored="false" />
-    <file path="/index.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404523914070" ignored="false" />
-    <file path="/view.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405197551649" ignored="false" />
-    <file path="/update.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404875469440" ignored="false" />
-    <file path="/CompanyprofileController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404527911569" ignored="false" />
-    <file path="/CustomermstController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1415035183982" ignored="false" />
-    <file path="/GrndetailController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405490889459" ignored="false" />
-    <file path="/GrouponeController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404529084935" ignored="false" />
-    <file path="/GroupthreeController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404529557066" ignored="false" />
-    <file path="/GrouptwoController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404605783166" ignored="false" />
-    <file path="/ImtransactionController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828029729" ignored="false" />
-    <file path="/ItimtoapController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404574747273" ignored="false" />
-    <file path="/ItimtoglController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405224483821" ignored="false" />
-    <file path="/ProductmasterController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409463457196" ignored="false" />
-    <file path="/RequisitiondtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405491348324" ignored="false" />
-    <file path="/create_money_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407846469075" ignored="false" />
-    <file path="/create_sales_return.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404534197644" ignored="false" />
-    <file path="/SuppliermasterController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404534635750" ignored="false" />
-    <file path="/TransactionController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1414936933394" ignored="false" />
-    <file path="/TransferdtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409642669369" ignored="false" />
-    <file path="/Vwchartofacc.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404595960621" ignored="false" />
-    <file path="/Chartofaccounts.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407824106328" ignored="false" />
-    <file path="/Groupone.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404605050547" ignored="false" />
-    <file path="/Grouptwo.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405018807589" ignored="false" />
-    <file path="/JournalController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404789180084" ignored="false" />
-    <file path="/JournaldtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409135429287" ignored="false" />
-    <file path="/Voucherdetail.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404689274452" ignored="false" />
-    <file path="/create_voucher_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406008191458" ignored="false" />
-    <file path="/_from_voucher_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406008135560" ignored="false" />
-    <file path="/manage_voucher_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404759835928" ignored="false" />
-    <file path="/glreports.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404769524971" ignored="false" />
-    <file path="/SareportController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1414838226259" ignored="false" />
-    <file path="/Purchaseorddt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409475280008" ignored="false" />
-    <file path="/PurchaseOrderNumberS.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404875401204" ignored="false" />
-    <file path="/Requisitionhd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404880189149" ignored="false" />
-    <file path="/Requisitiondt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404884477226" ignored="false" />
-    <file path="/manage_requisition_num.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1404940160686" ignored="false" />
-    <file path="/purchase_order_number.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406010411830" ignored="false" />
-    <file path="/general_ledger_report.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081139389" ignored="false" />
-    <file path="/trial_balance.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081280157" ignored="false" />
-    <file path="/trial_balance_all.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409808543178" ignored="false" />
-    <file path="/chart_of_account.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081521314" ignored="false" />
-    <file path="/post_unpost.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407840528647" ignored="false" />
-    <file path="/Transferhd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405195701304" ignored="false" />
-    <file path="/stock_recieve.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407847690000" ignored="false" />
-    <file path="/post_to_gl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407848944377" ignored="false" />
-    <file path="/inventory_settings.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406084473894" ignored="false" />
-    <file path="/create_im_trn.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405220961146" ignored="false" />
-    <file path="/create_invoice.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407843926579" ignored="false" />
-    <file path="/create_invoice_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405435094032" ignored="false" />
-    <file path="/admin_invoice.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407842766603" ignored="false" />
-    <file path="/Vouhcerheader.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407511884744" ignored="false" />
-    <file path="/create_sales_return_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405433301463" ignored="false" />
-    <file path="/create_money_receipt_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405434704608" ignored="false" />
-    <file path="/admin_sales_return.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405441913111" ignored="false" />
-    <file path="/_form_sales_return.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405670777006" ignored="false" />
-    <file path="/admin_money_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407846101771" ignored="false" />
-    <file path="/Vwmrrcv.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405577864139" ignored="false" />
-    <file path="/admin_vwmrrcv.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405577249011" ignored="false" />
-    <file path="/manage_money_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406019817340" ignored="false" />
-    <file path="/_form_money_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407837093719" ignored="false" />
-    <file path="/master_setup.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407760063506" ignored="false" />
-    <file path="/create_product_class.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717388792" ignored="false" />
-    <file path="/create_product_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717492717" ignored="false" />
-    <file path="/Codesparam.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408351222467" ignored="false" />
-    <file path="/create_product_category.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717561359" ignored="false" />
-    <file path="/create_unit_measurement.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717720989" ignored="false" />
-    <file path="/create_supplier_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717790798" ignored="false" />
-    <file path="/_form_supplier_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407505020217" ignored="false" />
-    <file path="/create_customer_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409717978439" ignored="false" />
-    <file path="/_form_customer_group.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408349815587" ignored="false" />
-    <file path="/create_customer_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409720326048" ignored="false" />
-    <file path="/_form_service.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405759793130" ignored="false" />
-    <file path="/service.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409715953830" ignored="false" />
-    <file path="/ap_invoice.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409820610140" ignored="false" />
-    <file path="/ap_payment_voucher.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409483328904" ignored="false" />
-    <file path="/a.dummy" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405846198322" ignored="false" />
-    <file path="/ac_payment.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406016283504" ignored="false" />
-    <file path="/Sminvalc.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405925213179" ignored="false" />
-    <file path="/product_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405932670527" ignored="false" />
-    <file path="/customer_ledger.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1405933282158" ignored="false" />
-    <file path="/admin_reverse.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407840039409" ignored="false" />
-    <file path="/admin_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407839611925" ignored="false" />
-    <file path="/admin_payment.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407839277142" ignored="false" />
-    <file path="/create_reverse.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409812070010" ignored="false" />
-    <file path="/create_payment.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409052981850" ignored="false" />
-    <file path="/glsettings.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406003615625" ignored="false" />
-    <file path="/purchase_settings.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406012654917" ignored="false" />
-    <file path="/purchase_report.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409808937090" ignored="false" />
-    <file path="/purchase_order_report.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406013106507" ignored="false" />
-    <file path="/ap_payment.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407842011533" ignored="false" />
-    <file path="/Transactionhistory.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406048158807" ignored="false" />
-    <file path="/balance_sheet.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081710035" ignored="false" />
-    <file path="/pnl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406081797049" ignored="false" />
-    <file path="/ap_reports.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406082158580" ignored="false" />
-    <file path="/supplier_ledger.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407318562678" ignored="false" />
-    <file path="/sales_report.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409808901684" ignored="false" />
-    <file path="/customer_ledger_sales.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406082450638" ignored="false" />
-    <file path="/itemledger.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406082602628" ignored="false" />
-    <file path="/inventory_movement.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406082876884" ignored="false" />
-    <file path="/stock_dispatch.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406082933453" ignored="false" />
-    <file path="/sales_settings.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406083471849" ignored="false" />
-    <file path="/view_purchase_order_hd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407847085599" ignored="false" />
-    <file path="/view_grn_hd.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409816105460" ignored="false" />
-    <file path="/grn_detail_admin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1406085633701" ignored="false" />
-    <file path="/delivery_order.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408956935204" ignored="false" />
-    <file path="/vat.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407567521434" ignored="false" />
-    <file path="/Dummy.txt" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1415194950801" ignored="false" />
-    <file path="/Vwpostimtogl.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407753597033" ignored="false" />
-    <file path="/post.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1407828621082" ignored="false" />
-    <file path="/_form_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408515391965" ignored="false" />
-    <file path="/admin_direct_sale.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408344266515" ignored="false" />
-    <file path="/AdjusthdController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1408526960815" ignored="false" />
-    <file path="/Adjustdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409477229927" ignored="false" />
-    <file path="/AdjustdtController.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410074350178" ignored="false" />
-    <file path="/stock_balance.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409033738023" ignored="false" />
-    <file path="/create_receipt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409812129231" ignored="false" />
-    <file path="/home.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409053468302" ignored="false" />
-    <file path="/Vwvoucher.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409130671741" ignored="false" />
-    <file path="/admin_view.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409132285834" ignored="false" />
-    <file path="/Productmaster.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409465760029" ignored="false" />
-    <file path="/Vwunpaidinv.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409483202104" ignored="false" />
-    <file path="/Transferdt.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409641594007" ignored="false" />
-    <file path="/Grnheader.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1409648072160" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/controllers/clogin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078573036" ignored="false" />
-    <file path="/clogin.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078313195" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/controllers/cuser.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161028230" ignored="false" />
-    <file path="/forgot_password.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410080632317" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/user/forgot_password.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410080634498" ignored="false" />
-    <file path="/account_verified.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078730964" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/user/account_verified.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078737184" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/template/header.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410078798449" ignored="false" />
-    <file path="/cuser.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410158135407" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/models/user.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410079643063" ignored="false" />
-    <file path="/user.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410079458686" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/controllers/cregistration.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410082237286" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/registration/registration_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410081771853" ignored="false" />
-    <file path="/registration_form.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410081748855" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/user/tpl_dashboard.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410159725570" ignored="false" />
-    <file path="/tpl_dashboard.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410159684445" ignored="false" />
-    <file path="$PROJECT_DIR$/../ehandout/application/views/user/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161764102" ignored="false" />
-    <file path="/tpl_dashboard_student_list.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410161744082" ignored="false" />
-    <file path="$PROJECT_DIR$/../erp_home/index.html" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410241520223" ignored="false" />
-    <file path="/index.html" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1410241520223" ignored="false" />
-    <file path="/_from_customer_no.php" changelist="eb183c4d-baed-4610-9c1f-4bb4166baf9e" time="1415034759822" ignored="false" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3238,6 +3065,13 @@
         <option value="$PROJECT_DIR$/protected/views/customermst/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/adjustdt/create.php" />
         <option value="$PROJECT_DIR$/protected/views/adjustdt/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ProductmasterController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -3262,7 +3096,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3274,7 +3108,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3283,100 +3116,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adjustdt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="a9de0925-c31f-4311-b6e1-c1e9fdd69e9e">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="e2980e42-a639-4a34-8049-ed1c2490e6e1">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3395,40 +3147,20 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="" />
       <created>1397491444585</created>
+      <option name="number" value="Default" />
       <updated>1397491444585</updated>
     </task>
     <servers />
@@ -3438,28 +3170,32 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22878788" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284041" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -3467,58 +3203,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3531,109 +3218,215 @@
       </breakpoints>
       <option name="time" value="5" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/protected/views/itimtogl/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="6" selection-start="7646" selection-end="7646" vertical-scroll-proportion="0.924812" />
+        <state vertical-scroll-proportion="0.924812" vertical-offset="0" max-vertical-offset="0">
+          <caret line="189" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/productmaster/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="0" selection-start="9971" selection-end="9971" vertical-scroll-proportion="0.7744361" />
+        <state vertical-scroll-proportion="0.7744361" vertical-offset="0" max-vertical-offset="0">
+          <caret line="237" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/companyprofile/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="770" selection-end="770" vertical-scroll-proportion="0.71428573" />
+        <state vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="0">
+          <caret line="18" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/codesparam/master_setup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="4425" selection-end="4425" vertical-scroll-proportion="0.42105263" />
+        <state vertical-scroll-proportion="0.42105263" vertical-offset="0" max-vertical-offset="0">
+          <caret line="145" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/batchtransfer/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="36.896553" />
+        <state vertical-scroll-proportion="36.896553" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/transaction/create_customer_no.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="28" selection-start="2606" selection-end="2606" vertical-scroll-proportion="0.46052632" />
+        <state vertical-scroll-proportion="0.46052632" vertical-offset="0" max-vertical-offset="0">
+          <caret line="72" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TransactionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1131" column="0" selection-start="37042" selection-end="37042" vertical-scroll-proportion="0.92110455" />
+        <state vertical-scroll-proportion="0.92110455" vertical-offset="0" max-vertical-offset="0">
+          <caret line="1131" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/transaction/_from_customer_no.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="190" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.34774438" />
+        <state vertical-scroll-proportion="0.34774438" vertical-offset="0" max-vertical-offset="0">
+          <caret line="34" column="190" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/branchmaster/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="121" selection-start="1406" selection-end="1462" vertical-scroll-proportion="0.7706767" />
+        <state vertical-scroll-proportion="0.7706767" vertical-offset="0" max-vertical-offset="0">
+          <caret line="36" column="121" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/CustomermstController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="11" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.68045115" />
+        <state vertical-scroll-proportion="0.68045115" vertical-offset="0" max-vertical-offset="0">
+          <caret line="85" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/CodesparamController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="412" column="0" selection-start="13249" selection-end="13249" vertical-scroll-proportion="0.2938856">
+        <state vertical-scroll-proportion="0.2938856" vertical-offset="0" max-vertical-offset="0">
+          <caret line="412" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Itimtogl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="33" selection-start="3772" selection-end="3772" vertical-scroll-proportion="0.43609023">
-          <folding />
+        <state vertical-scroll-proportion="0.43609023" vertical-offset="0" max-vertical-offset="0">
+          <caret line="119" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/AdjustdtController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="5" selection-start="9614" selection-end="9614" vertical-scroll-proportion="1.7142857">
-          <folding />
+        <state vertical-scroll-proportion="1.7142857" vertical-offset="0" max-vertical-offset="0">
+          <caret line="289" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/customermst/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="19" selection-start="7799" selection-end="7799" vertical-scroll-proportion="0.7744361">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#label#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7744361" vertical-offset="0" max-vertical-offset="0">
+          <caret line="242" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/adjustdt/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="3944" selection-end="3944" vertical-scroll-proportion="0.7368421">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7368421" vertical-offset="0" max-vertical-offset="0">
+          <caret line="115" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/adjustdt/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="19" selection-start="6276" selection-end="6276" vertical-scroll-proportion="0.7744361">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7744361" vertical-offset="0" max-vertical-offset="0">
+          <caret line="171" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/ProfileField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.495527" vertical-offset="5921" max-vertical-offset="6804">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5423729" vertical-offset="1629" max-vertical-offset="2187">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46319568" vertical-offset="1119" max-vertical-offset="2889">
+          <caret line="51" column="97" selection-start-line="51" selection-start-column="97" selection-end-line="51" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.12926391" vertical-offset="2664" max-vertical-offset="5238">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="930" max-vertical-offset="1863">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="4683" max-vertical-offset="5859">
+          <caret line="180" column="42" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9353147" vertical-offset="535" max-vertical-offset="1107">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/components/WebUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90339893" vertical-offset="1358" max-vertical-offset="2025">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45438284" vertical-offset="394" max-vertical-offset="1674">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ProductmasterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24150269" vertical-offset="4320" max-vertical-offset="9423">
+          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90339893" vertical-offset="6947" max-vertical-offset="11097">
+          <caret line="276" column="33" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

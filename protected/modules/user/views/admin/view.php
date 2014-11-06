@@ -40,6 +40,7 @@ $this->menu=array(
 		'email',
         'employeeid',
 		'employeebranch',
+        'user_type',
 		'activkey',
 		'create_at',
 		'lastvisit_at',

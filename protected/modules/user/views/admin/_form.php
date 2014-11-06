@@ -46,6 +46,12 @@
 		<?php echo $form->textField($model,'employeebranch',array('size'=>60, 'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'employeebranch'); ?>
 	</div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model,'user_type', array('class' => 'input-form-label')); ?>
+        <?php echo $form->dropDownList($model,'user_type',array('Admin'=>'Admin', 'Sales'=>'Sales')); ?>
+        <?php echo $form->error($model,'user_type'); ?>
+    </div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'superuser', array('class' => 'input-form-label')); ?>
