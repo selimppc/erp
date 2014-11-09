@@ -50,14 +50,14 @@ class Productmaster extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cm_code, cm_name', 'required'),
+			array('cm_code, cm_name, cm_class, cm_group, cm_category, currency, cm_sellrate, cm_costprice, cm_sellunit, cm_sellconfact, cm_purunit, cm_purconfact, cm_stkunit, cm_stkconfac', 'required'),
 			array('cm_maxlevel, cm_minlevel, cm_reorder', 'numerical', 'integerOnly'=>true),
 			array('cm_code, cm_class, cm_group, cm_category, cm_sellunit, cm_purunit, cm_stkunit, cm_packsize, cm_stocktype, cm_supplierid, cm_mfgcode, insertuser, updateuser', 'length', 'max'=>50),
 			array('cm_name, cm_description', 'length', 'max'=>200),
 
-			array('cm_sellrate, currency, cm_costprice, cm_sellconfact, cm_purconfact, cm_stkconfac', 'length', 'max'=>20),
+			//array('cm_sellrate, currency, cm_costprice, cm_sellconfact, cm_purconfact, cm_stkconfac', 'length', 'max'=>20),
 			array('cm_generic', 'length', 'max'=>100),
-			array('inserttime, updatetime, currency', 'safe'),
+			array('cm_code, cm_name, cm_description, image, cm_class, cm_group, cm_category, currency, exchange_rate, cm_sellrate, cm_costprice, cm_sellunit, cm_sellconfact, cm_purunit, cm_purconfact, cm_stkunit, cm_stkconfac, cm_packsize, cm_stocktype, cm_generic, cm_supplierid, cm_mfgcode, cm_maxlevel, cm_minlevel, cm_reorder, inserttime, updatetime, insertuser, updateuser', 'safe'),
 
 			array('cm_code, cm_name, cm_description, image, cm_class, cm_group, cm_category, currency, exchange_rate, cm_sellrate, cm_costprice, cm_sellunit, cm_sellconfact, cm_purunit, cm_purconfact, cm_stkunit, cm_stkconfac, cm_packsize, cm_stocktype, cm_generic, cm_supplierid, cm_mfgcode, cm_maxlevel, cm_minlevel, cm_reorder, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
 		);
@@ -105,9 +105,9 @@ class Productmaster extends CActiveRecord
 			'cm_sellunit' => 'Sell Unit',
 			'cm_sellconfact' => 'Sell Unit Quantity',
 			'cm_purunit' => 'Purchase Unit',
-			'cm_purconfact' => 'Purchase Unit Quantity',
+			'cm_purconfact' => 'Purchase Unit Qty',
 			'cm_stkunit' => 'Stock Unit',
-			'cm_stkconfac' => 'Stock Unit Quantity',
+			'cm_stkconfac' => 'Stock Unit Qty',
 			'cm_packsize' => 'Pack Size',
 			'cm_stocktype' => 'Stock Type',
 			'cm_generic' => 'Generic',

@@ -254,7 +254,7 @@ class RequisitiondtController extends Controller
 		
 			if (!empty($_GET['term'])) {
 				//$sql = 'SELECT cm_code as id, CONCAT(cm_code," ",cm_name) as value, cm_name as label FROM cm_productmaster WHERE cm_name LIKE :qterm ';
-				$sql = 'SELECT cm_code as value, cm_name as label, cm_purunit as unit FROM cm_productmaster WHERE cm_name LIKE :qterm ';
+				$sql = 'SELECT cm_code as value, cm_name as label, cm_purunit as unit, ROUND(cm_purconfact) as unitquantity FROM cm_productmaster WHERE cm_name LIKE :qterm ';
 				$sql .= ' ORDER BY cm_name ASC';
 				$command = Yii::app()->db->createCommand($sql);
 				$qterm = $_GET['term'].'%';

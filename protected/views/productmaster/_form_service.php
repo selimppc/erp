@@ -21,17 +21,17 @@
 
 
 	<div class="row">
-		<label>Service Code *</label>
+		<label>Product Code *</label>
 		<?php echo $form->textField($model,'cm_code', array($model->isNewRecord ? '' : "readonly"=>True)); ?>
 		<span style="color: #FF6600; float: left; margin-bottom: 5px;">
-			<?php echo $model->isNewRecord ? 'Service code must be unique' : 'Service Code Can not be changed '?>
+			<?php echo $model->isNewRecord ? 'Product code must be unique' : 'Product Code Can not be changed '?>
 		</span>
 		<?php echo $form->error($model,'cm_code'); ?>
 	</div>
 
 	<div class="row">
-        <label>Service Name *</label>
-		<?php echo $form->textField($model,'cm_name',array('size'=>60,'maxlength'=>200)); ?>
+        <label>Product Name *</label>
+		<?php echo $form->textField($model,'cm_name',array('required'=>TRUE )); ?>
 		<?php echo $form->error($model,'cm_name'); ?>
 	</div>
 
@@ -86,17 +86,27 @@
                 <?php echo $form->error($model,'currency'); ?>
             </div>
 
-            <div class="row">
-                <?php echo $form->labelEx($model,'exchange_rate'); ?>
-                <?php echo $form->textField($model,'exchange_rate',array('id'=>'exchange_rate', 'placeholder'=>'0.00' )); ?>
-                <?php echo $form->error($model,'exchange_rate'); ?>
-            </div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'exchange_rate'); ?>
+        <?php echo $form->textField($model,'exchange_rate',array('id'=>'exchange_rate')); ?>
+        <?php echo $form->error($model,'exchange_rate'); ?>
+    </div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'cm_sellrate'); ?>
-		<?php echo $form->textField($model,'cm_sellrate',array('placeholder'=>'0.00', 'required'=>TRUE, ) ); ?>
-		<?php echo $form->error($model,'cm_sellrate'); ?>
-	</div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'cm_sellrate'); ?>
+        <?php echo $form->textField($model,'cm_sellrate',array('required'=>TRUE)); ?>
+        <?php echo $form->error($model,'cm_sellrate'); ?>
+    </div>
+
+
+    <?php echo $form->hiddenField($model,'cm_sellrate', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_costprice', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_sellunit', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_sellconfact', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_purunit', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_purconfact', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_stkunit', array('value'=>'0')); ?>
+    <?php echo $form->hiddenField($model,'cm_stkconfac', array('value'=>'0')); ?>
 
 
 	<div class="row">

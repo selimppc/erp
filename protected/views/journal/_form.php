@@ -47,7 +47,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'am_vouchernumber'); ?>
-		<?php echo $form->textField($model,'am_vouchernumber',array('readonly'=>'readonly')); ?>
+		<?php echo $form->textField($model,'am_vouchernumber',array('readonly'=>'readonly', 'style'=>'background: #ccc; font-weight:bold;')); ?>
 		<?php echo $form->error($model,'am_vouchernumber'); ?>
 	</div>
 

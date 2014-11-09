@@ -135,7 +135,7 @@
     <div id="box_input_id">
         <div id="part_20">
             <?php echo $form->labelEx($model,'cm_group'); ?>
-            <?php echo $form->dropDownList($model,'cm_group', CHtml::listData(Codesparam::model()->findAll('cm_type="Customer Group"'),'cm_code','cm_desc'), array('class'=>'hr_input_field')); ?>
+            <?php echo $form->dropDownList($model,'cm_group', CHtml::listData(Codesparam::model()->findAll('cm_type="Customer Group"'),'cm_code','cm_code'), array('class'=>'hr_input_field')); ?>
         </div>
         <div id="part_240">
             <?php //echo $form->labelEx($model,'cm_cuscode'); ?>

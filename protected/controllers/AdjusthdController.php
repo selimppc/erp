@@ -149,12 +149,27 @@ class AdjusthdController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
+        try{
+            $this->loadModel($id)->delete();
 
-		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-		if(!isset($_GET['ajax']))
-			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+            if(!isset($_GET['ajax']))
+                Yii::app()->user->setFlash('success','Success Message : Data - Deleted Successfully !');
+            else
+                echo "<div class='flash-success'>Success Message : Data - Deleted Successfully !</div>";
+
+        }catch(CDbException $e){
+            if(!isset($_GET['ajax']))
+                Yii::app()->user->setFlash('error',' Warning Message: Invalid request: Adjustment detail data exists !');
+            else
+                echo "<div class='flash-error'>  Warning Message: Invalid request : Adjustment detail data exists ! </div>";
+        }
+
+        // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+        if(!isset($_GET['ajax']))
+            $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
+
+
 
 	/**
 	 * Lists all models.

@@ -20,7 +20,7 @@
         <div style="float: left; width: 50%;">
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_supplierid'); ?>
-		<?php echo $form->textField($model,'cm_supplierid', array($model->isNewRecord ? '' : "readonly"=>True)); ?>
+		<?php echo $form->textField($model,'cm_supplierid', array($model->isNewRecord ? '' : "readonly"=>True, 'required'=>TRUE )); ?>
 		<?php echo $form->error($model,'cm_supplierid'); ?>
 	</div>
 
@@ -32,7 +32,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_orgname'); ?>
-		<?php echo $form->textField($model,'cm_orgname',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->textField($model,'cm_orgname',array( 'required'=>TRUE )); ?>
 		<?php echo $form->error($model,'cm_orgname'); ?>
 	</div>
 
@@ -77,7 +77,7 @@
             
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_contactperson'); ?>
-		<?php echo $form->textField($model,'cm_contactperson',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->textField($model,'cm_contactperson',array( 'required'=>TRUE )); ?>
 		<?php echo $form->error($model,'cm_contactperson'); ?>
 	</div>
 

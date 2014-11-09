@@ -78,9 +78,6 @@ class PurchaseordhdController extends Controller
 	public function actionCreate()
 	{
 		$model=new Purchaseordhd;
-		
-		$purorno = $this->actionPurorno();
-		$model->pp_purordnum =$purorno;
 
 	    $this->performAjaxValidation($model);
 				$model->inserttime = date("Y-m-d H:i");
@@ -91,6 +88,9 @@ class PurchaseordhdController extends Controller
 		if(isset($_POST['Purchaseordhd']))
 		{
 			$model->attributes=$_POST['Purchaseordhd'];
+            $purorno = $this->actionPurorno();
+            $model->pp_purordnum =$purorno;
+
 			if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('purchase', 'Success Message : Data Added Successfully !'));
             }else{

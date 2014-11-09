@@ -75,15 +75,18 @@ class CustomermstController extends Controller
 
 				$model->inserttime = date("Y-m-d H:i");
                 $model->insertuser = Yii::app()->user->name;
-                $country = "RWA";
+                //$country = "RWA";
 
 
 		if(isset($_POST['Customermst']))
 		{
 			$model->attributes=$_POST['Customermst'];
+            //Number Generating...
             $s = $model->cm_territory;
-            $r = $this->actionCusCode($s);
-            $model->cm_cuscode = $country."-".$r;
+            $trn = Transaction::model()->find('cm_type=:cm_type And cm_branch=:cm_branch',
+                        array(':cm_type'=>'Customer TRN Number',':cm_branch'=>$s))->cm_trncode;
+            $r = $this->actionCusCode($trn);
+            $model->cm_cuscode = $r;
 
 
 			if($model->save()){

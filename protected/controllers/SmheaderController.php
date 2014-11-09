@@ -91,7 +91,7 @@ class SmheaderController extends Controller
 		//$Smdetail = new Smdetail;
 
 		//$invoiceno = $model->sm_number = "IN140009";
-		$model->sm_number = $this->actionInvoiceNo();
+
 		$model->sm_refe_code = $model->sm_number;
 		$model->sm_date = date("Y-m-d");
 		$model->sm_storeid = Yii::app()->user->employeebranch; 
@@ -103,6 +103,7 @@ class SmheaderController extends Controller
 		{
 
 			$model->attributes=$_POST['Smheader'];
+            $model->sm_number = $this->actionInvoiceNo();
 
             if(isset($_POST['cm_code'])){
                 $sm_number = $model->sm_number;
@@ -396,7 +397,7 @@ class SmheaderController extends Controller
 	public function actionCreateSalesReturn($sm_number)
 	 {
 		$model = new Smheader;
-		$model->sm_number = $this->actionSalesReturnNo();
+
 		
 		$sql = "SELECT sm_number, cm_code, sm_batchnumber, sm_expdate, sm_unit, sm_sellrate, sm_rate, sm_quantity, sm_tax_rate, sm_line_amt, cm_name
 		        FROM sm_vw_sm_batchsale
@@ -425,6 +426,7 @@ class SmheaderController extends Controller
 		{
 			
 			$model->attributes=$_POST['Smheader'];
+            $model->sm_number = $this->actionSalesReturnNo();
 
             if(isset($_POST['cm_code'])){
                 $sm_number = $model->sm_number;
@@ -574,8 +576,6 @@ class SmheaderController extends Controller
 	public function actionCreateMoneyReceipt($cm_code, $cm_name, $sm_branch){
 		$model = new Smheader;
 		$vwmralc = new Smvwmralc;
-				
-		$model->sm_number = $this->actionMoneyReceipt();
 		
 		$model->sm_date = date("Y-m-d");
 		$model->cm_cuscode = $cm_code;
@@ -600,6 +600,7 @@ class SmheaderController extends Controller
 		{
 
 			$model->attributes=$_POST['Smheader'];
+            $model->sm_number = $this->actionMoneyReceipt();
 
             if(isset($_POST['sm_invnumber'])){
                 $sm_number = $model->sm_number;
@@ -854,8 +855,6 @@ class SmheaderController extends Controller
     {
         $model = new Smheader;
 
-        $model->sm_number = $this->actionDirectSaleNo();
-        $model->sm_refe_code = $model->sm_number;
         $model->sm_date = date("Y-m-d");
         $model->sm_storeid = Yii::app()->user->employeebranch;
 
@@ -865,6 +864,8 @@ class SmheaderController extends Controller
         if(isset($_POST['Smheader']))
         {
             $model->attributes=$_POST['Smheader'];
+            $model->sm_number = $this->actionDirectSaleNo();
+            $model->sm_refe_code = $model->sm_number;
 
             if($model->save()){
                     Yii::app()->user->setFlash('success', Yii::t('smheader', 'Success Message : Data Added Successfully !'));

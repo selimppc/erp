@@ -85,7 +85,7 @@
 
 	<div class="row">
 		<label>Currency <span class="required">*</span> </label>
-		<?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
+		<?php $currency= CHtml::listData(Currency::model()->findAll('cm_active = 1'), 'cm_currency', 'cm_description');
         echo $form->dropDownList($model,'currency', $currency, array('empty'=>'- Choose Currency -', 'required'=>TRUE,
 
             'ajax' => array(

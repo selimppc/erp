@@ -48,7 +48,7 @@ class Suppliermaster extends CActiveRecord
 			array('cm_address', 'length', 'max'=>200),
 			array('cm_postcode, cm_fax', 'length', 'max'=>10),
 			array('cm_phone', 'length', 'max'=>20),
-			array('inserttime, updatetime', 'safe'),
+			array('cm_supplierid, cm_group, cm_orgname, cm_address, cm_district, cm_post, cm_policest, cm_postcode, cm_contactperson, cm_phone, cm_cellphone, cm_fax, cm_email, cm_url, cm_status, inserttime, updatetime, insertuser, updateuser', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('cm_supplierid, cm_group, cm_orgname, cm_address, cm_district, cm_post, cm_policest, cm_postcode, cm_contactperson, cm_phone, cm_cellphone, cm_fax, cm_email, cm_url, cm_status, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),

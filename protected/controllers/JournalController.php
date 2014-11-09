@@ -190,8 +190,6 @@ class JournalController extends Controller
         $model->inserttime = date("Y-m-d H:i");
         $model->insertuser = Yii::app()->user->name;
 
-        $model->am_vouchernumber = $this->actionJournalVoucherNo();
-
         $journalvoucher = new Vouhcerheader('searchJournalVoucher');
         $journalvoucher->unsetAttributes();  // clear any default values
         if(isset($_GET['Vouhcerheader']))
@@ -201,6 +199,8 @@ class JournalController extends Controller
         if(isset($_POST['Vouhcerheader']))
         {
             $model->attributes=$_POST['Vouhcerheader'];
+            $model->am_vouchernumber = $this->actionJournalVoucherNo();
+
             if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('journal', 'Success Message: Added Successfully !'));
             }else{
@@ -328,8 +328,6 @@ class JournalController extends Controller
         $model->inserttime = date("Y-m-d H:i");
         $model->insertuser = Yii::app()->user->name;
 
-        $model->am_vouchernumber = $this->actionPaymentVoucherNo();
-
         $journalvoucher = new Vouhcerheader('searchPaymentVoucher');
         $journalvoucher->unsetAttributes();  // clear any default values
         if(isset($_GET['Vouhcerheader']))
@@ -339,6 +337,7 @@ class JournalController extends Controller
         if(isset($_POST['Vouhcerheader']))
         {
             $model->attributes=$_POST['Vouhcerheader'];
+            $model->am_vouchernumber = $this->actionPaymentVoucherNo();
             if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('journal', 'Success Message: Added Successfully !'));
             }else{
@@ -463,8 +462,6 @@ class JournalController extends Controller
         $model->inserttime = date("Y-m-d H:i");
         $model->insertuser = Yii::app()->user->name;
 
-        $model->am_vouchernumber = $this->actionReceiptVoucherNo();
-
         $journalvoucher = new Vouhcerheader('searchReceiptVoucher');
         $journalvoucher->unsetAttributes();  // clear any default values
         if(isset($_GET['Vouhcerheader']))
@@ -474,6 +471,7 @@ class JournalController extends Controller
         if(isset($_POST['Vouhcerheader']))
         {
             $model->attributes=$_POST['Vouhcerheader'];
+            $model->am_vouchernumber = $this->actionReceiptVoucherNo();
             if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('journal', 'Success Message: Added Successfully !'));
             }else{
@@ -598,8 +596,6 @@ class JournalController extends Controller
         $model->inserttime = date("Y-m-d H:i");
         $model->insertuser = Yii::app()->user->name;
 
-        $model->am_vouchernumber = $this->actionReverseVoucherNo();
-
         $journalvoucher = new Vouhcerheader('searchReverseVoucher');
         $journalvoucher->unsetAttributes();  // clear any default values
         if(isset($_GET['Vouhcerheader']))
@@ -609,6 +605,7 @@ class JournalController extends Controller
         if(isset($_POST['Vouhcerheader']))
         {
             $model->attributes=$_POST['Vouhcerheader'];
+            $model->am_vouchernumber = $this->actionReverseVoucherNo();
             if($model->save()){
                 Yii::app()->user->setFlash('success', Yii::t('journal', 'Success Message: Added Successfully !'));
             }else{

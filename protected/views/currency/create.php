@@ -86,7 +86,12 @@ $this->menu=array(
                 'cm_currency',
                 'cm_description',
                 'cm_exchangerate',
-                'cm_active',
+                //'cm_active',
+                array(
+                    'name'=>'cm_active',
+                    'filter'=>array('1'=>'YES','0'=>'NO'),
+                    'value'=>'($data->cm_active=="1")?("YES"):("NO")'
+                ),
 
                 array(
                     'class'=>'CButtonColumn',

@@ -81,7 +81,11 @@ $this->menu=array(
 		//'cm_fax',
 		'cm_email',
 		//'cm_url',
-		'cm_status',
+        array(
+            'name'=>'cm_status',
+            'filter'=>array('1'=>'Open','0'=>'Closed'),
+            'value'=>'($data->cm_status=="1")?("Open"):("Closed")'
+        ),
 		//'inserttime',
 		//'updatetime',
 		//'insertuser',

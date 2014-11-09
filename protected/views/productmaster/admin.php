@@ -101,8 +101,9 @@ $this->menu=array(
 		'cm_name',
 		'cm_description',
 		'cm_class',
+        'cm_category',
 		'cm_group',
-		'cm_category',
+
 		/*
 		'cm_sellrate',
 		'cm_costprice',

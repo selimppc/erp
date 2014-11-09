@@ -117,7 +117,7 @@ $this->menu=array(
 
 
 
-            <?php echo CHtml::link('POST to GL', array('PostToGl', 'am_vouchernumber'=>$am_vouchernumber), array('class'=>'btn_btn', 'style'=>'height: 21px; text-align: center; width: 143px; box-shadow: 10px 3px 5px #aaa;  ')); ?>
+            <?php echo CHtml::link('POST to GL', array('PostToGl', 'am_vouchernumber'=>$am_vouchernumber), array('class'=>'btn_btn', 'id'=>'togglee', 'style'=>'height: 21px; text-align: center; width: 143px; box-shadow: 10px 3px 5px #aaa;  ')); ?>
 
             <div id="report_icon">
                 <?php
@@ -149,8 +149,10 @@ $this->menu=array(
             var base_amt = document.getElementById("base-amt").innerHTML;
             if(prime_amt > 0 || base_amt>0 || prime_amt < 0 || base_amt < 0 ){
                 $("#notice_amt").text("WARNING Report : The journal must balance ie. debits equal to credits before it can be processed").css('color', 'red');
+                document.getElementById('togglee').style.visibility = 'hidden';
             }else{
                 $("#notice_amt").text("Journal Balanced").css('color', 'green');
+                document.getElementById('togglee').style.visibility = 'visible';
             }
         });
     });

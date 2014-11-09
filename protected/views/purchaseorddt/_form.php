@@ -81,7 +81,8 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'pp_unit'); ?>
 		<?php //echo $form->dropDownList($model,'pp_unit', CHtml::listData(Codesparam::model()->findAll('cm_type = "Unit Of Measurement" '), 'cm_code', 'cm_code'), array('id'=>'unitofmeasurement' )); ?>  
-		<?php echo $form->textField($model,'pp_unit', array('id'=>'unitofmeasurement' )); ?>
+		<?php //echo $form->textField($model,'pp_unit', array('id'=>'unitofmeasurement' )); ?>
+        <?php echo $form->dropDownlist($model,'pp_unit',CHtml::listData(Productmaster::model()->findAll(), 'cm_purunit', 'cm_purunit'), array('id'=>'unitofmeasurement' , 'empty'=>'- Select unit -', 'required'=> TRUE)); ?>
 		<?php echo $form->error($model,'pp_unit'); ?>
 	</div>
 

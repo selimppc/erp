@@ -36,25 +36,27 @@ table .money-receipt-sales, td
 	</tr>
 	<tr>
 		<td width="140">Account Code <span class="required">*</span></td>
-		<td> <?php echo $form->textField($model,'am_accountcode',  array($model->isNewRecord ? '' : "readonly"=>True)); ?> <?php echo $form->error($model,'am_accountcode'); ?></td>
+		<td> <?php echo $form->textField($model,'am_accountcode',  array($model->isNewRecord ? '' : "readonly"=>True, 'required'=>TRUE)); ?> <?php echo $form->error($model,'am_accountcode'); ?></td>
 	</tr>
 	<tr>	
 		<td> Description <span class="required">*</span></td>
-		<td> <?php echo $form->textField($model,'am_description'); ?> <?php echo $form->error($model,'am_description'); ?></td>
+		<td> <?php echo $form->textField($model,'am_description', array('required'=>TRUE)); ?>
+            <?php echo $form->error($model,'am_description'); ?>
+        </td>
 	</tr>
 	
 	<tr>
 		<td> Account Type </td>
 		<td class="compactRadioGroup"> 
 			<?php // echo $form->radioButtonList($model,'am_accounttype', $model->getAccountType()); ?>
-			<?php echo  $form->radioButtonList($model,'am_accounttype',array('Asset'=>'Asset','Liability'=>'Liability', 'Income'=>'Income', 'Expenses'=>'Expenses'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px; '))); ?> 
+			<?php echo  $form->radioButtonList($model,'am_accounttype',array('Asset'=>'Asset','Liability'=>'Liability', 'Income'=>'Income', 'Expenses'=>'Expenses'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px; '), 'required'=>TRUE)); ?>
 		</td>
 		
 	</tr>
 	<tr>
 		<td> Account Usage </td>
 		<td class="compactRadioGroup"> <?php //echo $form->radioButtonList($model,'am_accountusage',array('Ledger'=>'Ledger','AP'=>'AP', 'AR'=>'AR')); ?> 
-		<?php echo  $form->radioButtonList($model,'am_accountusage',array('Ledger'=>'Ledger','AP'=>'AP', 'AR'=>'AR'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px;'))); ?>
+		<?php echo  $form->radioButtonList($model,'am_accountusage',array('Ledger'=>'Ledger','AP'=>'AP', 'AR'=>'AR'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px;'), 'required'=>TRUE)); ?>
 		<?php // echo $form->radioButtonList($model,'am_accountusage', $model->getAccountUsage()); ?>
 		</td>
 	</tr>
@@ -71,7 +73,9 @@ table .money-receipt-sales, td
 	                            'type'=>'POST',
 	                            'url' => CController::createUrl('chartofaccounts/grouptwo'),
 	                            'update'=>'#'.CHtml::activeId($model,'am_grouptwo'),
-                            ))
+                            )
+
+                    )
 		 );?> </td>
 
 
@@ -105,15 +109,14 @@ table .money-receipt-sales, td
 	<tr>
 		<td> Analytic Type </td>
 		<td> <?php echo $form->dropDownList($model,'am_analyticalcode',array(
-                'Cash'=>'Cash','Non-Cash'=>'Non-Cash', 'Cheque'=>'Cheque', 'Bankers Draft'=>'Bankers Draft',
-                'Letter of Credit'=>'Letter of Credit', 'Wire Transfer'=>'Wire Transfer', 'Others'=>'Others',
-            )); ?> </td>
+                'Cash'=>'Cash','Non-Cash'=>'Non-Cash')); ?>
+        </td>
 	</tr>
 	<tr>	
 		<td> Status </td>
 		<td class="compactRadioGroup"> 
 		<?php //echo $form->dropDownList($model,'am_status',array('Open'=>'Open','Close'=>'Close')); ?>
-		<?php echo $form->radioButtonList($model,'am_status',array('Open'=>'Open','Close'=>'Close'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px;'))); ?>
+		<?php echo $form->radioButtonList($model,'am_status',array('Open'=>'Open','Close'=>'Close'), array('separator'=>'', 'labelOptions'=>array('style'=>'display:inline; margin: -5px 25px 0px 0px; padding: 0px 0px 0px 3px;'), 'required'=>TRUE)); ?>
 		</td>
 	</tr>
 	

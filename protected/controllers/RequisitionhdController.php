@@ -75,9 +75,6 @@ class RequisitionhdController extends Controller
 	public function actionCreate()
 	{
 		$model=new Requisitionhd;
-		
-		$reqno = $this->actionReqno();
-		$model->pp_requisitionno =$reqno;
 
 		$this->performAjaxValidation($model);
 			$model->inserttime = date("Y-m-d H:i");
@@ -91,6 +88,10 @@ class RequisitionhdController extends Controller
 		if(isset($_POST['Requisitionhd']))
 		{
 			$model->attributes=$_POST['Requisitionhd'];
+
+            $reqno = $this->actionReqno();
+            $model->pp_requisitionno =$reqno;
+
 					if($model->save()){
                         Yii::app()->user->setFlash('success', Yii::t('requisition', 'Success Message : Data Added Successfully !'));
                     }else{

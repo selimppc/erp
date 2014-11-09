@@ -35,7 +35,7 @@ class Transaction extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('cm_type, cm_trncode', 'required'),
-			array('cm_trncode', 'length', 'max'=>4),
+			array('cm_trncode', 'length', 'max'=>10),
 			array('cm_lastnumber, cm_increment, cm_active', 'numerical', 'integerOnly'=>true),
 			array('cm_type, cm_trncode, cm_branch, insertuser, updateuser', 'length', 'max'=>50),
 			array('cm_trncode', 'filter', 'filter'=>'strtoupper'),

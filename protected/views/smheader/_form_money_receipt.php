@@ -156,7 +156,7 @@ table .money-receipt-sales, td
     <tr>
         <td> Currency: </td>
         <td>
-            <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
+            <?php $currency= CHtml::listData(Currency::model()->findAll('cm_active = 1'), 'cm_currency', 'cm_description');
             echo $form->dropDownList($model,'sm_currency', $currency, array('empty'=>'- Choose Currency -', 'required'=>TRUE, 'style'=>'width: 140px',
 
                 'ajax' => array(

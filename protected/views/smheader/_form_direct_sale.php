@@ -79,7 +79,7 @@ table .money-receipt-sales, td, th
 		
 		<tr>
 			<td> <?php echo $form->labelEx($model,'sm_number'); ?> </td>
-			<td> <?php echo $form->textField($model,'sm_number',array('id'=>'sm_number', 'readonly'=>'readonly')); ?> </td>
+			<td> <?php echo $form->textField($model,'sm_number',array('id'=>'sm_number', 'readonly'=>'readonly', 'style'=>'background: #ccc; width: 97%; padding: 5px;')); ?> </td>
 			<td> <?php echo $form->labelEx($model,'sm_date'); ?> </td>
 			<td> <?php echo $form->textField($model,'sm_date', array('id'=>'sm_date', 'readonly'=>'readonly')); ?> </td>
 		</tr>
@@ -119,7 +119,7 @@ table .money-receipt-sales, td, th
 		<tr>
 			<td> <?php echo $form->labelEx($model,'sm_currency'); ?> </td>
 			<td>
-                <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
+                <?php $currency= CHtml::listData(Currency::model()->findAll('cm_active = 1'), 'cm_currency', 'cm_description');
                 echo $form->dropDownList($model,'sm_currency', $currency, array('empty'=>'- Choose Currency -', 'required'=>TRUE,
 
                     'ajax' => array(
@@ -151,7 +151,7 @@ table .money-receipt-sales, td, th
                 <label> Note/ Remarks </label>
             </td>
             <td colspan="3">
-                <?php echo $form->textArea($model,'sm_note', array('style'=>'width: 99%; height: 80px;')); ?>
+                <?php echo $form->textArea($model,'sm_note', array('required'=>TRUE, 'style'=>'width: 99%; height: 80px;')); ?>
             </td>
         </tr>
 

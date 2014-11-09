@@ -89,9 +89,6 @@ class TransferhdController extends Controller
 	public function actionCreate()
 	{
 		$model=new Transferhd;
-		
-		$tranferno = $this->actionTranferNo();
-		$model->im_transfernum = $tranferno;
 
 			$model->inserttime = date("Y-m-d H:i");
 	        $model->insertuser = Yii::app()->user->name;
@@ -101,6 +98,9 @@ class TransferhdController extends Controller
 		if(isset($_POST['Transferhd']))
 		{
 			$model->attributes=$_POST['Transferhd'];
+            $tranferno = $this->actionTranferNo();
+            $model->im_transfernum = $tranferno;
+
             if($model->validate())
             {
                 if($model->save()){

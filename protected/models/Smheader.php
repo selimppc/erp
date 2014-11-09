@@ -110,6 +110,7 @@ class Smheader extends CActiveRecord
 
         $criteria->condition = "sm_doc_type = 'Sales' ";
         $criteria->addCondition("LEFT(sm_number, 4) != 'DS--'");
+        $criteria->addCondition("sm_stataus != 'Cancel'");
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('sm_number',$this->sm_number,true);
@@ -141,11 +142,10 @@ class Smheader extends CActiveRecord
 		$criteria->compare('insertuser',$this->insertuser,true);
 		$criteria->compare('updateuser',$this->updateuser,true);
 
-        $criteria -> order = "id DESC";
-
         $criteria->with = array( 'customer' );
         $criteria->compare( 'customer.cm_name', $this->customer_search, true );
 
+        $criteria -> order = "id DESC";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

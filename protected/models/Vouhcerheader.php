@@ -171,8 +171,9 @@ class Vouhcerheader extends CActiveRecord
 		$criteria->compare('updateuser',$this->updateuser,true);
 
         //$criteria -> order = "id DESC";
-
 		$criteria->condition = "LEFT(am_vouchernumber, 4) = 'JV--'";
+
+        $criteria -> order = "id DESC";
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -204,6 +205,7 @@ class Vouhcerheader extends CActiveRecord
 
 		$criteria->condition = "LEFT(am_vouchernumber, 4) = 'PAY-'";
 
+        $criteria -> order = "id DESC";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
@@ -233,6 +235,7 @@ class Vouhcerheader extends CActiveRecord
 
 		$criteria->condition = "LEFT(am_vouchernumber, 4) = 'RCV-'";
 
+        $criteria -> order = "id DESC";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
@@ -262,6 +265,7 @@ class Vouhcerheader extends CActiveRecord
 
 		$criteria->condition = "LEFT(am_vouchernumber, 4) = 'REV-'";
 
+        $criteria -> order = "id DESC";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

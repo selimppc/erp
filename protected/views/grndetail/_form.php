@@ -86,7 +86,7 @@ $(function() {
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cm_code'); ?>
-		<?php echo $form->textField($model,'cm_code', array('id'=>'product-code') ); ?>
+		<?php echo $form->textField($model,'cm_code', array('id'=>'product-code', 'readonly' =>TRUE ) ); ?>
             <br> <input type="text" id=product-name value="" disabled/>
             <br>
 		<?php echo $form->error($model,'cm_code'); ?>

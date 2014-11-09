@@ -475,6 +475,7 @@ class TransactionController extends Controller
             $imTrnNum = new CActiveDataProvider('Transaction', array(
                 'criteria'=>array(
                     'condition'=> 't.cm_type = "IM Transfer Number" ',
+
                 ),
                 'pagination'=>array(
                     'pageSize'=>10,
@@ -1102,6 +1103,7 @@ class TransactionController extends Controller
             $data = new CActiveDataProvider('Transaction', array(
                 'criteria'=>array(
                     'condition'=> 't.cm_type = "Customer TRN Number" ',
+                    'order'=>'inserttime DESC',
                 ),
                 'pagination'=>array(
                     'pageSize'=>10,

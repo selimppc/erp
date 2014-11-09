@@ -42,6 +42,8 @@
 						$("#cm_code").text(ui.item.value);
 						$("#productname").text(ui.item.label);
 						$("#unitid").val(ui.item.unit);
+						$("#unitquantity").text(ui.item.unitquantity);
+
 
 					}'
 				),
@@ -67,6 +69,10 @@
 		<?php echo $form->error($model,'pp_unit'); ?>
 	</div>
 
+    <div class="row">
+        <label>Unit Quantity</label>
+        <span style="margin-left: 5px;" id="unitquantity">Hello</span>
+    </div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'pp_quantity'); ?>
 		<?php echo $form->textField($model,'pp_quantity', array('required'=>True)); ?>

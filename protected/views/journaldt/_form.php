@@ -77,7 +77,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'am_currency'); ?>
 		<?php //echo $form->textField($model,'am_currency',array('size'=>10,'maxlength'=>10)); ?>
-        <?php $currency = CHtml::listData(Currency::model()->findAll(),'cm_currency','cm_description');
+        <?php $currency = CHtml::listData(Currency::model()->findAll('cm_active = 1'),'cm_currency','cm_description');
         echo $form->dropDownList($model, 'am_currency', $currency,
             array('empty'=>'- Select Currency -','required'=>true,
 

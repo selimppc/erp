@@ -99,7 +99,7 @@
 
     <div class="row">
         <?php echo $form->labelEx($model,'im_fcur'); ?>
-        <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
+        <?php $currency= CHtml::listData(Currency::model()->findAll('cm_active = 1'), 'cm_currency', 'cm_description');
         echo $form->dropDownList($model,'im_fcur', $currency, array('empty'=>'- Choose Currency -',
 
             'ajax' => array(

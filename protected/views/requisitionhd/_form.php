@@ -59,7 +59,7 @@
     <div class="row">
         <?php echo $form->labelEx($model,'pp_currency'); ?>
         <?php //echo $form->dropDownList($model,'pp_currency', CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description'), array('empty'=>'- Select Currency -', 'required'=>true, )); ?>
-        <?php $currency= CHtml::listData(Currency::model()->findAll(), 'cm_currency', 'cm_description');
+        <?php $currency= CHtml::listData(Currency::model()->findAll('cm_active = 1'), 'cm_currency', 'cm_description');
         echo $form->dropDownList($model,'pp_currency', $currency, array('empty'=>'- Choose Currency -',
 
             'ajax' => array(
