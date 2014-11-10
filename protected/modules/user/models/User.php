@@ -64,20 +64,20 @@ class User extends CActiveRecord
             array('lastvisit_at', 'default', 'value' => '0000-00-00 00:00:00', 'setOnEmpty' => true, 'on' => 'insert'),
 
             //array('email', 'compare', 'compareAttribute'=>'confirmemail',  'message'=>'Email does not match'),
-            array('repeatpassword', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match", 'on'=>'create, update'),
+            //array('repeatpassword', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match", 'on'=>'create, update'),
 
-            array('username, email, repeatpassword, employeebranch, user_type, password, superuser, status', 'required'),
+            array('username, email, employeebranch, user_type, password, superuser, status', 'required'),
             array('superuser, status', 'numerical', 'integerOnly'=>true),
             array('id, username, password, email, activkey, create_at, lastvisit_at, superuser, status', 'safe', 'on'=>'search'),
         ):((Yii::app()->user->id==$this->id)?array(
             array('username, password, email', 'required'),
             array('username', 'length', 'max'=>20, 'min' => 3,'message' => UserModule::t("Incorrect username (length between 3 and 20 characters).")),
             array('email', 'email'),
-            array('repeatpassword', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match", 'on'=>'create, update'),
+            //array('repeatpassword', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match", 'on'=>'create, update'),
 
             array('username', 'unique', 'message' => UserModule::t("This user's name already exists.")),
             array('username', 'match', 'pattern' => '/^[A-Za-z0-9_]+$/u','message' => UserModule::t("Incorrect symbols (A-z0-9).")),
-            array('username, email, repeatpassword, employeebranch, user_type, password, superuser, status', 'required'),
+            array('username, email, employeebranch, user_type, password, superuser, status', 'required'),
             array('superuser, status', 'numerical', 'integerOnly'=>true),
             array('id, username, password, email, activkey, create_at, lastvisit_at, superuser, status', 'safe', 'on'=>'search'),
             array('email', 'unique', 'message' => UserModule::t("This user's email address already exists.")),

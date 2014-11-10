@@ -29,9 +29,9 @@
     </div>
 
     <div class="row">
-        <?php echo $form->labelEx($model,'repeatpassword', array('class' => 'input-form-label')); ?>
-        <?php echo $form->passwordField($model,'repeatpassword',array('size'=>60,'maxlength'=>128)); ?>
-        <?php echo $form->error($model,'repeatpassword'); ?>
+        <?php // echo $form->labelEx($model,'repeatpassword', array('class' => 'input-form-label')); ?>
+        <?php // echo $form->passwordField($model,'repeatpassword',array('size'=>60,'maxlength'=>128)); ?>
+        <?php // echo $form->error($model,'repeatpassword'); ?>
     </div>
 
     <div class="row">

@@ -2998,55 +2998,8 @@
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\themes\classic\views\.htaccess" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\ur.sql" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\sayjj_live.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/AdjusthdController.php" afterPath="$PROJECT_DIR$/protected/controllers/AdjusthdController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php" afterPath="$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" afterPath="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/JournalController.php" afterPath="$PROJECT_DIR$/protected/controllers/JournalController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Productmaster.php" afterPath="$PROJECT_DIR$/protected/models/Productmaster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/PurchaseordhdController.php" afterPath="$PROJECT_DIR$/protected/controllers/PurchaseordhdController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/RequisitiondtController.php" afterPath="$PROJECT_DIR$/protected/controllers/RequisitiondtController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/RequisitionhdController.php" afterPath="$PROJECT_DIR$/protected/controllers/RequisitionhdController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Smheader.php" afterPath="$PROJECT_DIR$/protected/models/Smheader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SmheaderController.php" afterPath="$PROJECT_DIR$/protected/controllers/SmheaderController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Suppliermaster.php" afterPath="$PROJECT_DIR$/protected/models/Suppliermaster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Transaction.php" afterPath="$PROJECT_DIR$/protected/models/Transaction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/TransactionController.php" afterPath="$PROJECT_DIR$/protected/controllers/TransactionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/TransferhdController.php" afterPath="$PROJECT_DIR$/protected/controllers/TransferhdController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/models/User.php" afterPath="$PROJECT_DIR$/protected/modules/user/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Vouhcerheader.php" afterPath="$PROJECT_DIR$/protected/models/Vouhcerheader.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/adjusthd/_form.php" afterPath="$PROJECT_DIR$/protected/views/adjusthd/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/chartofaccounts/_form.php" afterPath="$PROJECT_DIR$/protected/views/chartofaccounts/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/customermst/_form.php" afterPath="$PROJECT_DIR$/protected/views/customermst/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/grndetail/_form.php" afterPath="$PROJECT_DIR$/protected/views/grndetail/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journal/_form.php" afterPath="$PROJECT_DIR$/protected/views/journal/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journaldt/_form.php" afterPath="$PROJECT_DIR$/protected/views/journaldt/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" afterPath="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/purchaseordhd/_form.php" afterPath="$PROJECT_DIR$/protected/views/purchaseordhd/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/requisitiondt/_form.php" afterPath="$PROJECT_DIR$/protected/views/requisitiondt/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/requisitionhd/_form.php" afterPath="$PROJECT_DIR$/protected/views/requisitionhd/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/suppliermaster/_form.php" afterPath="$PROJECT_DIR$/protected/views/suppliermaster/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/transferhd/_form.php" afterPath="$PROJECT_DIR$/protected/views/transferhd/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_direct_sale.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_direct_sale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/productmaster/_form_service.php" afterPath="$PROJECT_DIR$/protected/views/productmaster/_form_service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/currency/admin.php" afterPath="$PROJECT_DIR$/protected/views/currency/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/productmaster/admin.php" afterPath="$PROJECT_DIR$/protected/views/productmaster/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/suppliermaster/admin.php" afterPath="$PROJECT_DIR$/protected/views/suppliermaster/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/create.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/currency/create.php" afterPath="$PROJECT_DIR$/protected/views/currency/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journaldt/create.php" afterPath="$PROJECT_DIR$/protected/views/journaldt/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journal/create_payment.php" afterPath="$PROJECT_DIR$/protected/views/journal/create_payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journaldt/create_payment.php" afterPath="$PROJECT_DIR$/protected/views/journaldt/create_payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journaldt/create_receipt.php" afterPath="$PROJECT_DIR$/protected/views/journaldt/create_receipt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/journaldt/create_reverse.php" afterPath="$PROJECT_DIR$/protected/views/journaldt/create_reverse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/update.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3129,8 +3082,6 @@
         <option value="$PROJECT_DIR$/protected/modules/user/views/admin/view.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/views/profile/changepassword.php" />
-        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/user/models/User.php" />
         <option value="$PROJECT_DIR$/protected/views/journaldt/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/requisitionhd/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/purchaseordhd/_form.php" />
@@ -3139,6 +3090,8 @@
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_direct_sale.php" />
         <option value="$PROJECT_DIR$/protected/views/transferhd/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/adjusthd/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
       </list>
     </option>
   </component>
@@ -3175,7 +3128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3184,8 +3136,155 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3221,15 +3320,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -3264,13 +3363,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3517,7 +3616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.774194" vertical-offset="0" max-vertical-offset="594">
           <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3525,7 +3623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="17.483871" vertical-offset="828" max-vertical-offset="1628">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3533,15 +3630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27556327" vertical-offset="1227" max-vertical-offset="1804">
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3989071" vertical-offset="1629" max-vertical-offset="5258">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3549,7 +3637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0797228" vertical-offset="169" max-vertical-offset="1672">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3557,15 +3644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4662045" vertical-offset="3097" max-vertical-offset="4378">
           <caret line="150" column="31" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4610052" vertical-offset="460" max-vertical-offset="2882">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3573,15 +3651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26689774" vertical-offset="990" max-vertical-offset="1606">
           <caret line="47" column="58" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/UserChangePassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57192373" vertical-offset="66" max-vertical-offset="1210">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3589,7 +3658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.6575592" vertical-offset="2633" max-vertical-offset="4444">
           <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3597,7 +3665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64818025" vertical-offset="0" max-vertical-offset="577">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3605,7 +3672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.096774" vertical-offset="1122" max-vertical-offset="3432">
           <caret line="61" column="83" selection-start-line="61" selection-start-column="83" selection-end-line="61" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3613,7 +3679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4193548" vertical-offset="2706" max-vertical-offset="5368">
           <caret line="146" column="83" selection-start-line="146" selection-start-column="83" selection-end-line="146" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3621,7 +3686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4765343" vertical-offset="1782" max-vertical-offset="3608">
           <caret line="87" column="83" selection-start-line="87" selection-start-column="83" selection-end-line="87" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3629,9 +3693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39711192" vertical-offset="2046" max-vertical-offset="4796">
           <caret line="101" column="83" selection-start-line="101" selection-start-column="83" selection-end-line="101" selection-end-column="83" />
-          <folding>
-            <marker date="1415553799206" expanded="true" signature="-1:-1" placeholder="Select From Store..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3639,7 +3700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4644714" vertical-offset="2108" max-vertical-offset="5566">
           <caret line="121" column="91" selection-start-line="121" selection-start-column="91" selection-end-line="121" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3647,7 +3707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.8087435" vertical-offset="6725" max-vertical-offset="9592">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3655,7 +3714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3812825" vertical-offset="1694" max-vertical-offset="4092">
           <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3663,7 +3721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45355192" vertical-offset="5735" max-vertical-offset="11638">
           <caret line="267" column="91" selection-start-line="267" selection-start-column="91" selection-end-line="267" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3671,7 +3728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57192373" vertical-offset="3234" max-vertical-offset="7854">
           <caret line="158" column="87" selection-start-line="158" selection-start-column="87" selection-end-line="158" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3679,6 +3735,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.493934" vertical-offset="5478" max-vertical-offset="9548">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/views/admin/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6135182" vertical-offset="460" max-vertical-offset="2882">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65391624" vertical-offset="1951" max-vertical-offset="5522">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/user/models/UserChangePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34315425" vertical-offset="198" max-vertical-offset="1210">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
