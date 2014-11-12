@@ -41,7 +41,8 @@ $(function() {
 	function setTarget(){
 	    var a = $("#unit-quantity").val();
 	    var b = $("#purchase-rate").val();
-	    var data = (a * b);
+        var c = $("#quantity").val();
+	    var data = (a * b * c);
 	    $('#total-ammount').val(data);
 	}
 
