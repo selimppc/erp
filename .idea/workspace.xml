@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb183c4d-baed-4610-9c1f-4bb4166baf9e" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_02_Nov_2014.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_03_Nov.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_03_Nov_2014.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_09_Nov_14.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_09_Nov_2014.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\erp\erp_10_Oct_14.zip" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\.buildpath" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\.idea\.name" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\.idea\encodings.xml" afterPath="" />
@@ -2998,8 +3004,11 @@
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\themes\classic\views\.htaccess" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\fr\ur.sql" afterPath="" />
       <change type="DELETED" beforePath="D:\xampp\htdocs\erp\sayjj_live.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/models/User.php" afterPath="$PROJECT_DIR$/protected/modules/user/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" afterPath="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Smdetail.php" afterPath="$PROJECT_DIR$/protected/models/Smdetail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" afterPath="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/smheader/admin_invoice.php" afterPath="$PROJECT_DIR$/protected/views/smheader/admin_invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3023,7 +3032,133 @@
     <favorites_list name="erp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="InvoicedtController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/InvoicedtController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.559322" vertical-offset="3830" max-vertical-offset="6578">
+              <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+              <folding>
+                <marker date="1415809368618" expanded="true" signature="3517:3592" placeholder="SELECT 1 FRO..sm_detail..." />
+                <marker date="1415809368618" expanded="true" signature="4212:4282" placeholder="SELECT sm_da..sm_header..." />
+                <marker date="1415809368618" expanded="true" signature="7778:8229" placeholder="SELECT t.cm_..cm_productmaster..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/invoicehd/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="3168">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/invoicehd/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.33898306" vertical-offset="2466" max-vertical-offset="3608">
+              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1716">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PurchaseorddtController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/PurchaseorddtController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7457627" vertical-offset="4092" max-vertical-offset="7832">
+              <caret line="188" column="9" selection-start-line="175" selection-start-column="8" selection-end-line="188" selection-end-column="9" />
+              <folding>
+                <marker date="1408606279837" expanded="true" signature="9760:9959" placeholder="SELECT cm_co..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.7118645" vertical-offset="2663" max-vertical-offset="3938">
+              <caret line="131" column="81" selection-start-line="131" selection-start-column="81" selection-end-line="131" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+                <marker date="1415807861781" expanded="true" signature="3796:3800" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="4225:4261" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="4458:4462" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="4458:4528" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="4804:4848" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="5021:5065" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="5238:5282" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="5489:5533" placeholder="..." />
+                <marker date="1415807861781" expanded="true" signature="5748:5812" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form_invoice_new.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="12.694915" vertical-offset="10385" max-vertical-offset="11572">
+              <caret line="456" column="10" selection-start-line="452" selection-start-column="4" selection-end-line="456" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvoicehdController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/InvoicehdController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5361011" vertical-offset="1749" max-vertical-offset="5566">
+              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="17.612904" vertical-offset="2306" max-vertical-offset="2860">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="7.096774" vertical-offset="462" max-vertical-offset="2684">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="197" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -3041,16 +3176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/customermst/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/user/views/admin/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/models/Transaction.php" />
-        <option value="$PROJECT_DIR$/protected/views/transaction/_from_im_trn_num.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/TransactionController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/CustomermstController.php" />
-        <option value="$PROJECT_DIR$/protected/views/chartofaccounts/_form.php" />
-        <option value="$PROJECT_DIR$/protected/views/journal/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Vouhcerheader.php" />
         <option value="$PROJECT_DIR$/protected/views/journal/create_payment.php" />
         <option value="$PROJECT_DIR$/protected/controllers/JournalController.php" />
         <option value="$PROJECT_DIR$/protected/views/journaldt/create.php" />
@@ -3059,7 +3184,6 @@
         <option value="$PROJECT_DIR$/protected/views/journaldt/create_payment.php" />
         <option value="$PROJECT_DIR$/protected/controllers/RequisitionhdController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/PurchaseordhdController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SmheaderController.php" />
         <option value="$PROJECT_DIR$/protected/views/purchaseorddt/_form.php" />
         <option value="$PROJECT_DIR$/protected/controllers/RequisitiondtController.php" />
         <option value="$PROJECT_DIR$/protected/views/requisitiondt/_form.php" />
@@ -3085,13 +3209,24 @@
         <option value="$PROJECT_DIR$/protected/views/journaldt/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/requisitionhd/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/purchaseordhd/_form.php" />
-        <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php" />
         <option value="$PROJECT_DIR$/protected/views/smheader/_form_direct_sale.php" />
         <option value="$PROJECT_DIR$/protected/views/transferhd/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/adjusthd/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/models/User.php" />
         <option value="$PROJECT_DIR$/protected/modules/user/views/admin/_form.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SmheaderController.php" />
+        <option value="$PROJECT_DIR$/protected/models/Smdetail.php" />
+        <option value="$PROJECT_DIR$/protected/views/invoicedt/_form.php" />
+        <option value="$PROJECT_DIR$/protected/views/purchaseorddt/create.php" />
+        <option value="$PROJECT_DIR$/protected/views/smheader/admin_invoice.php" />
+        <option value="$PROJECT_DIR$/protected/views/invoicehd/create.php" />
+        <option value="$PROJECT_DIR$/protected/views/invoicedt/create.php" />
+        <option value="$PROJECT_DIR$/protected/views/invoicedt/admin.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/InvoicedtController.php" />
+        <option value="$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php" />
+        <option value="$PROJECT_DIR$/protected/views/invoicehd/_form.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/InvoicehdController.php" />
       </list>
     </option>
   </component>
@@ -3174,54 +3309,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3240,19 +3327,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="smheader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3270,15 +3349,113 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="purchaseorddt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invoicehd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invoicedt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grndetail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3357,7 +3534,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284041" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19253294" sideWeight="0.99601597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -3402,125 +3579,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/models/Vouhcerheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11839709" vertical-offset="6623" max-vertical-offset="7172">
-          <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journal/create_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64818025" vertical-offset="990" max-vertical-offset="3036">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/JournalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21311475" vertical-offset="7407" max-vertical-offset="15840">
-          <caret line="328" column="52" selection-start-line="328" selection-start-column="52" selection-end-line="328" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42807627" vertical-offset="2569" max-vertical-offset="3938">
-          <caret line="117" column="151" selection-start-line="117" selection-start-column="151" selection-end-line="117" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_reverse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27556327" vertical-offset="2635" max-vertical-offset="3938">
-          <caret line="116" column="151" selection-start-line="116" selection-start-column="151" selection-end-line="116" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create_receipt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23743501" vertical-offset="2657" max-vertical-offset="3938">
-          <caret line="116" column="151" selection-start-line="116" selection-start-column="151" selection-end-line="116" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/journaldt/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.389948" vertical-offset="2635" max-vertical-offset="4004">
-          <caret line="119" column="149" selection-start-line="119" selection-start-column="132" selection-end-line="119" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/RequisitionhdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.473137" vertical-offset="5715" max-vertical-offset="6292">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/PurchaseordhdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16117851" vertical-offset="10335" max-vertical-offset="10912">
-          <caret line="449" column="17" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/requisitiondt/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41941074" vertical-offset="726" max-vertical-offset="2772">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/RequisitiondtController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41347906" vertical-offset="5669" max-vertical-offset="7898">
-          <caret line="256" column="123" selection-start-line="256" selection-start-column="111" selection-end-line="256" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/PurchaseorddtController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="7121" max-vertical-offset="7854">
-          <caret line="317" column="56" selection-start-line="317" selection-start-column="20" selection-end-line="317" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3812825" vertical-offset="1254" max-vertical-offset="3212">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/productmaster/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51993066" vertical-offset="866" max-vertical-offset="5918">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/productmaster/_form_service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.5161295" vertical-offset="1830" max-vertical-offset="3344">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ProductmasterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6939891" vertical-offset="6373" max-vertical-offset="7964">
-          <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Productmaster.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4663024" vertical-offset="1176" max-vertical-offset="4642">
-          <caret line="102" column="24" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/suppliermaster/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58058923" vertical-offset="1469" max-vertical-offset="3696">
@@ -3556,31 +3614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Smheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49913344" vertical-offset="2396" max-vertical-offset="10428">
-          <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/admin_invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.778163" vertical-offset="1603" max-vertical-offset="4202">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TransferhdController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="3381" max-vertical-offset="7040">
           <caret line="156" column="37" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/grndetail/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8284229" vertical-offset="1524" max-vertical-offset="6336">
-          <caret line="88" column="100" selection-start-line="88" selection-start-column="100" selection-end-line="88" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -3595,13 +3632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9237435" vertical-offset="325" max-vertical-offset="5368">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SmheaderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04007286" vertical-offset="4290" max-vertical-offset="21758">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="203" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -3675,13 +3705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548" vertical-offset="2706" max-vertical-offset="5368">
-          <caret line="146" column="83" selection-start-line="146" selection-start-column="83" selection-end-line="146" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/adjusthd/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4765343" vertical-offset="1782" max-vertical-offset="3608">
@@ -3717,13 +3740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45355192" vertical-offset="5735" max-vertical-offset="11638">
-          <caret line="267" column="91" selection-start-line="267" selection-start-column="91" selection-end-line="267" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_money_receipt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57192373" vertical-offset="3234" max-vertical-offset="7854">
@@ -3742,7 +3758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6135182" vertical-offset="460" max-vertical-offset="2882">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3750,7 +3765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65391624" vertical-offset="1951" max-vertical-offset="5522">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3758,6 +3772,235 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34315425" vertical-offset="198" max-vertical-offset="1210">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4136" max-vertical-offset="4950">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="231" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/grndetail/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5920577" vertical-offset="882" max-vertical-offset="1452">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/create_invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6425993" vertical-offset="920" max-vertical-offset="1474">
+          <caret line="53" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseordhd/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49097472" vertical-offset="2544" max-vertical-offset="3300">
+          <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/grndetail/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.457539" vertical-offset="1034" max-vertical-offset="6314">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/PurchaseordhdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22586522" vertical-offset="3682" max-vertical-offset="10912">
+          <caret line="164" column="37" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
+          <folding>
+            <marker date="1415429538154" expanded="true" signature="-1:-1" placeholder="UPDATE pp_pu..." />
+            <marker date="1415429538154" expanded="true" signature="-1:-1" placeholder="SELECT cm_or..." />
+            <marker date="1415429538154" expanded="true" signature="-1:-1" placeholder="SELECT pp_re..." />
+            <marker date="1415429538154" expanded="true" signature="-1:-1" placeholder="UPDATE pp_pu..." />
+            <marker date="1415429538154" expanded="true" signature="-1:-1" placeholder="SELECT cm_ex..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2580645" vertical-offset="2239" max-vertical-offset="3212">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="127" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Purchaseorddt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.516129" vertical-offset="2178" max-vertical-offset="4730">
+          <caret line="56" column="60" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Smdetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.677419" vertical-offset="4334" max-vertical-offset="4928">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Smheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5270758" vertical-offset="2348" max-vertical-offset="10252">
+          <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SmheaderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3745247" vertical-offset="7745" max-vertical-offset="21714">
+          <caret line="340" column="9" selection-start-line="294" selection-start-column="4" selection-end-line="340" selection-end-column="9" />
+          <folding>
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="UPDATE sm_he..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT t.cm_..cm_productmaster..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT t.cm_..cm_productmaster..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT cm_na..cm_productmaster..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT cm_cu..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT sm_nu..sm_vw_sm_batchsale..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT cm_na..cm_customermst..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sm_vw_mrrcv..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT SUM(s..sm_vw_mrrcv..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="UPDATE sm_he..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="SELECT am_ac..." />
+            <marker date="1415721050641" expanded="true" signature="-1:-1" placeholder="UPDATE sm_he..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7118645" vertical-offset="2663" max-vertical-offset="3938">
+          <caret line="131" column="81" selection-start-line="131" selection-start-column="81" selection-end-line="131" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <marker date="1415807861781" expanded="true" signature="3796:3800" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="4225:4261" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="4458:4462" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="4458:4528" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="4804:4848" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="5021:5065" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="5238:5282" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="5489:5533" placeholder="..." />
+            <marker date="1415807861781" expanded="true" signature="5748:5812" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19855596" vertical-offset="0" max-vertical-offset="1936">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/admin_invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="4092">
+          <caret line="11" column="149" selection-start-line="11" selection-start-column="149" selection-end-line="11" selection-end-column="149" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/invoicehd/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="3168">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1716">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/invoicedt/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.612904" vertical-offset="2306" max-vertical-offset="2860">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/purchaseorddt/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.096774" vertical-offset="462" max-vertical-offset="2684">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="197" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/PurchaseorddtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7457627" vertical-offset="4092" max-vertical-offset="7832">
+          <caret line="188" column="9" selection-start-line="175" selection-start-column="8" selection-end-line="188" selection-end-column="9" />
+          <folding>
+            <marker date="1408606279837" expanded="true" signature="9760:9959" placeholder="SELECT cm_co..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/InvoicedtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.559322" vertical-offset="3830" max-vertical-offset="6578">
+          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+          <folding>
+            <marker date="1415809368618" expanded="true" signature="3517:3592" placeholder="SELECT 1 FRO..sm_detail..." />
+            <marker date="1415809368618" expanded="true" signature="4212:4282" placeholder="SELECT sm_da..sm_header..." />
+            <marker date="1415809368618" expanded="true" signature="7778:8229" placeholder="SELECT t.cm_..cm_productmaster..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/smheader/_form_invoice_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.694915" vertical-offset="10385" max-vertical-offset="11572">
+          <caret line="456" column="10" selection-start-line="452" selection-start-column="4" selection-end-line="456" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/invoicehd/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33898306" vertical-offset="2466" max-vertical-offset="3608">
+          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/InvoicehdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5361011" vertical-offset="1749" max-vertical-offset="5566">
+          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
           <folding />
         </state>
       </provider>

@@ -380,6 +380,7 @@ table .money-receipt-sales, td, th
 				<td> <input id="sell_rate" style="width: 100px; padding: 3px;" onchange="rateMultiply()" /> </td>
 				<td> <input id="tax_rate" style="width: 100px; padding: 3px;" /> </td>
 				<td> <input id="quantity_a" style="width: 100px; padding: 3px; text-align: center;" onchange="primeMultiply()" placeholder="0" /> </td>
+
 				<td> <input id="unit_a" style="width: 100px; padding: 3px;" readonly="readonly"/> </td>
 				<td> <input id="total" value="0.00" style="width: 100px; padding: 3px; text-align: right;" readonly="readonly"/> 
 					 <input type="hidden" id="total_a" style="width: 100px; padding: 3px;" readonly="readonly"/>

@@ -26,6 +26,8 @@
 class Smdetail extends CActiveRecord
 {
 	public $cm_name;
+    public $cm_description;
+    public $product_search;
 	
 	/**
 	 * @return string the associated database table name
@@ -50,7 +52,7 @@ class Smdetail extends CActiveRecord
 			array('inserttime, updatetime', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, sm_number, cm_code, sm_unit, sm_rate, sm_bonusqty, sm_quantity, sm_tax_rate, sm_tax_amt, sm_lineamt, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
+			array('id, sm_number, cm_code, product_search, sm_unit, sm_unit_qty, sm_rate, sm_bonusqty, sm_quantity, sm_tax_rate, sm_tax_amt, sm_lineamt, inserttime, updatetime, insertuser, updateuser', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,6 +66,7 @@ class Smdetail extends CActiveRecord
 		return array(
 			'cmCode' => array(self::BELONGS_TO, 'CmProductmaster', 'cm_code'),
 			'smNumber' => array(self::BELONGS_TO, 'SmHeader', 'sm_number'),
+            'product' => array(self::BELONGS_TO, 'Productmaster', 'cm_code'),
 		);
 	}
 
@@ -80,6 +83,7 @@ class Smdetail extends CActiveRecord
 			'sm_rate' => 'Rate',
 			'sm_bonusqty' => 'Bonusqty',
 			'sm_quantity' => 'Quantity',
+            'sm_unit_qty' => 'Unit Quantity',
 			'sm_tax_rate' => 'Tax Rate',
 			'sm_tax_amt' => 'Tax Amountt',
 			'sm_lineamt' => 'Line Amount',
@@ -117,6 +121,7 @@ class Smdetail extends CActiveRecord
 		$criteria->compare('sm_rate',$this->sm_rate,true);
 		$criteria->compare('sm_bonusqty',$this->sm_bonusqty);
 		$criteria->compare('sm_quantity',$this->sm_quantity);
+        $criteria->compare('sm_unit_qty',$this->sm_unit_qty);
 		$criteria->compare('sm_tax_rate',$this->sm_tax_rate,true);
 		$criteria->compare('sm_tax_amt',$this->sm_tax_amt,true);
 		$criteria->compare('sm_lineamt',$this->sm_lineamt,true);
@@ -146,6 +151,7 @@ class Smdetail extends CActiveRecord
 		$criteria->compare('sm_rate',$this->sm_rate,true);
 		$criteria->compare('sm_bonusqty',$this->sm_bonusqty);
 		$criteria->compare('sm_quantity',$this->sm_quantity);
+        $criteria->compare('sm_unit_qty',$this->sm_unit_qty);
 		$criteria->compare('sm_tax_rate',$this->sm_tax_rate,true);
 		$criteria->compare('sm_tax_amt',$this->sm_tax_amt,true);
 		$criteria->compare('sm_lineamt',$this->sm_lineamt,true);
@@ -173,4 +179,38 @@ class Smdetail extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
+    public function searchDetail($sm_number)
+    {
+        // @todo Please modify the following code to remove attributes that should not be searched.
+
+        $criteria=new CDbCriteria;
+        $criteria->condition = "sm_number = '$sm_number' ";
+
+        $criteria->compare('id',$this->id);
+        $criteria->compare('sm_number',$this->sm_number,true);
+        $criteria->compare('cm_code',$this->cm_code,true);
+        $criteria->compare('sm_unit',$this->sm_unit,true);
+        $criteria->compare('sm_rate',$this->sm_rate,true);
+        $criteria->compare('sm_bonusqty',$this->sm_bonusqty);
+        $criteria->compare('sm_quantity',$this->sm_quantity);
+        $criteria->compare('sm_unit_qty',$this->sm_unit_qty);
+        $criteria->compare('sm_tax_rate',$this->sm_tax_rate,true);
+        $criteria->compare('sm_tax_amt',$this->sm_tax_amt,true);
+        $criteria->compare('sm_lineamt',$this->sm_lineamt,true);
+        $criteria->compare('inserttime',$this->inserttime,true);
+        $criteria->compare('updatetime',$this->updatetime,true);
+        $criteria->compare('insertuser',$this->insertuser,true);
+        $criteria->compare('updateuser',$this->updateuser,true);
+
+        $criteria->with = array( 'product' );
+        $criteria->compare( 'product.cm_name', $this->product_search, true );
+
+        $criteria->order = "id DESC";
+
+        return new CActiveDataProvider($this, array(
+            'criteria'=>$criteria,
+        ));
+    }
 }
